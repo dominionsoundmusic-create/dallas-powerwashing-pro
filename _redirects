@@ -1,0 +1,9 @@
+# redirects
+
+# Sep 11 2026 - templated city pages retired; wildcards send them to the hub.
+/deck-cleaning/*  /deck-cleaning/  301
+/driveway-cleaning/*  /driveway-cleaning/  301
+/fence-cleaning/*  /fence-cleaning/  301
+/power-washing/*  /power-washing/  301
+/pressure-washing/*  /pressure-washing/  301
+/roof-soft-wash/*  /roof-soft-wash/  301
