@@ -7,3 +7,27 @@
 /power-washing/*  /power-washing/  301
 /pressure-washing/*  /pressure-washing/  301
 /roof-soft-wash/*  /roof-soft-wash/  301
+
+# Sep 25 2026 - automatic blog posts retired (templated). Each old post points to the closest real page.
+/blog/pressure-washing-vs-soft-washing-what-is-the-difference-1786366105614.html  /roof-soft-wash/  301
+/blog/pressure-washing-vs-soft-washing-what-is-the-difference-1786366105614  /roof-soft-wash/  301
+/blog/how-much-does-pressure-washing-cost-in-dallas-1785937612576.html  /pressure-washing/  301
+/blog/how-much-does-pressure-washing-cost-in-dallas-1785937612576  /pressure-washing/  301
+/blog/how-much-does-pressure-washing-cost-in-dallas-1786023941108.html  /pressure-washing/  301
+/blog/how-much-does-pressure-washing-cost-in-dallas-1786023941108  /pressure-washing/  301
+/blog/how-much-does-pressure-washing-cost-in-dallas-1786106675424.html  /pressure-washing/  301
+/blog/how-much-does-pressure-washing-cost-in-dallas-1786106675424  /pressure-washing/  301
+/blog/how-clean-exterior-surfaces-prevent-costly-repairs-1786278748566.html  /pressure-washing/  301
+/blog/how-clean-exterior-surfaces-prevent-costly-repairs-1786278748566  /pressure-washing/  301
+/blog/signs-your-driveway-needs-professional-cleaning-1785851484387.html  /driveway-cleaning/  301
+/blog/signs-your-driveway-needs-professional-cleaning-1785851484387  /driveway-cleaning/  301
+/blog/best-time-of-year-to-pressure-wash-in-dallas-1786192225249.html  /pressure-washing/  301
+/blog/best-time-of-year-to-pressure-wash-in-dallas-1786192225249  /pressure-washing/  301
+/blog/why-diy-pressure-washing-damages-siding-1786452434928.html  /power-washing/  301
+/blog/why-diy-pressure-washing-damages-siding-1786452434928  /power-washing/  301
+/blog/how-power-washing-protects-your-home-value-1785707535398.html  /power-washing/  301
+/blog/how-power-washing-protects-your-home-value-1785707535398  /power-washing/  301
+/blog/how-often-should-you-pressure-wash-your-house-1786970483743.html  /power-washing/  301
+/blog/how-often-should-you-pressure-wash-your-house-1786970483743  /power-washing/  301
+/blog/*  /  301
+/blog  /  301
