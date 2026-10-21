@@ -310,7 +310,7 @@
       "url": "https://weather.gov/fwd/Feb-2021-WinterEvent"
     },
     "hail": {
-      "label": "CBS Texas: Tarrant Tops Texas List of County-by-County Hailstorms (Insurance Council of Texas data, 2012)",
+      "label": "CBS Texas: Tarrant Tops Texas List of County-by-County Hailstorms (NWS records and Insurance Council of Texas, 2012)",
       "url": "https://www.cbsnews.com/texas/news/tarrant-tops-texas-list-of-county-by-county-hailstorms"
     },
     "angi": {
@@ -496,6 +496,10 @@
     "wiki_flowermound": {
       "label": "Wikipedia: Flower Mound, Texas",
       "url": "https://en.wikipedia.org/wiki/Flower_Mound,_Texas"
+    },
+    "frisco_sw": {
+      "label": "City of Frisco: Stormwater FAQ",
+      "url": "https://www.friscotexas.gov/Faq.aspx?TID=32"
     }
   }
 }
