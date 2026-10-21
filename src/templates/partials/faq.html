@@ -1,0 +1,13 @@
+<section class="band band--tint faq" id="common-questions" aria-labelledby="faq-title">
+  <div class="col">
+    <h2 id="faq-title">Common questions</h2>
+    <div class="faq__list">
+    {% for f in page.faqs %}
+      <details class="faq__item"{% if loop.first %} open{% endif %}>
+        <summary><h3>{{ f.q }}</h3></summary>
+        <div class="faq__a">{{ f.a }}</div>
+      </details>
+    {% endfor %}
+    </div>
+  </div>
+</section>

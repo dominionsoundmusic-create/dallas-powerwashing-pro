@@ -1,0 +1,74 @@
+{% set b = site.business %}
+{% import "macros.html" as m with context %}
+{% set canonical = b.origin ~ page.url %}
+{% set og_img = b.origin ~ '/images/' ~ (page.hero.render_image if page.hero is defined and page.hero else 'pw-hero.jpg') %}
+<!doctype html>
+<!-- dwdp:handwritten 2026-10-21 -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ page.title }}</title>
+<meta name="description" content="{{ page.description }}">
+{% if page.noindex %}
+<meta name="robots" content="noindex, follow">
+{% else %}
+<link rel="canonical" href="{{ canonical }}">
+{% endif %}
+<meta property="og:type" content="{{ 'article' if page.type == 'guide' else 'website' }}">
+<meta property="og:site_name" content="{{ b.name }}">
+<meta property="og:title" content="{{ page.og_title | default(page.title) }}">
+<meta property="og:description" content="{{ page.description }}">
+<meta property="og:url" content="{{ canonical }}">
+<meta property="og:image" content="{{ og_img }}">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ page.og_title | default(page.title) }}">
+<meta name="twitter:description" content="{{ page.description }}">
+<meta name="twitter:image" content="{{ og_img }}">
+<meta name="theme-color" content="{{ b.theme_color }}">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="preload" as="font" type="font/woff2" href="/fonts/inter-latin-var.woff2" crossorigin>
+{% if page.hero %}
+<link rel="preload" as="image" href="/images/{{ page.hero.render_image }}" fetchpriority="high"{% set hs = webp_srcset(page.hero.render_image) %}{% if hs %} imagesrcset="{{ hs }}" imagesizes="100vw" type="image/webp"{% endif %}>
+{% endif %}
+<style>{{ site_css }}</style>
+{% if page.jsonld %}
+<script type="application/ld+json">{{ page.jsonld | tojson_ld }}</script>
+{% endif %}
+{% if site.analytics.ga4_id %}
+<script>
+/* GA4, delayed: the tag loads on the first scroll, click, key press or touch, or 3.5 seconds after load,
+   so it never competes with the first paint. Phone taps are queued as events either way. */
+window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','{{ site.analytics.ga4_id }}');
+(function(){var done=false,ev=['scroll','click','keydown','touchstart'];function load(){if(done)return;done=true;ev.forEach(function(e){removeEventListener(e,load,{passive:true});});var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id={{ site.analytics.ga4_id }}';document.head.appendChild(s);}
+ev.forEach(function(e){addEventListener(e,load,{passive:true,once:true});});addEventListener('load',function(){setTimeout(load,3500);});})();
+document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a[href^="tel:"]');if(a){gtag('event','phone_call_click',{phone_number:a.getAttribute('href').slice(4),link_url:location.pathname});}},true);
+</script>
+{% endif %}
+</head>
+<body class="type-{{ page.type | default('page') }}">
+<a class="skip" href="#main">Skip to content</a>
+{% include "partials/header.html" %}
+<main id="main">
+{% block hero %}{% if page.hero %}{% include "partials/hero.html" %}{% else %}<section class="title-band"><div class="col"><h1>{{ page.h1 }}</h1>{% if page.lead %}<p class="title-band__lead">{{ page.lead }}</p>{% endif %}</div></section>{% endif %}{% endblock %}
+{% if page.breadcrumbs is defined and page.breadcrumbs %}
+<nav class="crumbs" aria-label="Breadcrumb"><ol>
+{% for c in page.breadcrumbs %}
+<li>{% if not loop.last %}<a href="{{ c.href }}">{{ c.label }}</a>{% else %}<span aria-current="page">{{ c.label }}</span>{% endif %}</li>
+{% endfor %}
+</ol></nav>
+{% endif %}
+<div class="page-content" data-content="{{ page.type | default('page') }}">
+{% block content %}{% endblock %}
+{% if page.sources %}<div class="prose prose--sources">{{ m.sources(page.sources) }}</div>{% endif %}
+</div>
+{% block faq %}{% if page.faqs is defined and page.faqs %}{% include "partials/faq.html" %}{% endif %}{% endblock %}
+{% block cta %}{% if page.cta is not defined or page.cta %}{% include "partials/cta.html" %}{% endif %}{% endblock %}
+</main>
+{% include "partials/footer.html" %}
+<script src="/js/site.js" defer></script>
+</body>
+</html>

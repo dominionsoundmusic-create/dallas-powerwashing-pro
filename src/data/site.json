@@ -1,0 +1,505 @@
+{
+  "business": {
+    "name": "Dallas Power Washing Pro",
+    "legal_name": "Dominion Digital Group",
+    "dba_note": "Dallas Power Washing Pro is a d/b/a of Dominion Digital Group.",
+    "category": "Free pressure washing and soft washing referral phone line for Dallas-Fort Worth",
+    "origin": "https://dallaspowerwashingpro.com",
+    "phone_display": "(469) 649-7066",
+    "phone_tel": "+14696497066",
+    "email": "",
+    "address_display": false,
+    "hours_text": "The phone line is answered 24 hours a day, 7 days a week by an automated assistant.",
+    "primary_city": "Dallas",
+    "state": "Texas",
+    "state_abbr": "TX",
+    "description": "Dallas Power Washing Pro is a free phone line for homeowners and businesses across Dallas-Fort Worth. An automated assistant answers any hour, asks what needs cleaning, and puts the call through to an independent, locally owned pressure washing company that inspects, quotes, does the work and is paid by the customer directly.",
+    "short_disclosure": "Dallas Power Washing Pro is a free phone line, not a pressure washing company. It answers your call and connects you with an independent local pressure washing company, which inspects, quotes and does the work, and which you pay directly.",
+    "referral_disclosure": "Companies may pay a referral fee. Callers never pay the line.",
+    "other_lines": "The same number also takes AC and heating, roofing, water damage and mold calls for the Dallas area, so the assistant first asks what you need.",
+    "verse": "John 3:16",
+    "quote_text": "I believe the unbelievable, I receive the impossible, because it's doable.",
+    "quote_author": "Jesse Duplantis",
+    "copyright": "© 2026 Dominion Digital Group. All rights reserved.",
+    "credit_text": "Designed by Dominion Web Design Pro",
+    "credit_url": "https://dominionwebdesignpro.com",
+    "logo": "/images/logo.svg",
+    "logo_width": 290,
+    "logo_height": 64,
+    "theme_color": "#163a5f"
+  },
+  "cta": {
+    "primary_label": "Call (469) 649-7066",
+    "primary_short": "Call now",
+    "secondary_label": "How It Works",
+    "secondary_href": "/how-it-works/"
+  },
+  "social": {
+    "facebook": "https://www.facebook.com/dallaspowerwashingpro",
+    "instagram": "",
+    "tiktok": "",
+    "youtube": "",
+    "google_business": ""
+  },
+  "analytics": {
+    "ga4_id": "G-37W4N8XFL8"
+  },
+  "nav": [
+    {
+      "label": "Services",
+      "href": "/services/",
+      "menu": "services"
+    },
+    {
+      "label": "Service Areas",
+      "href": "/service-areas/",
+      "menu": "cities"
+    },
+    {
+      "label": "Guides",
+      "href": "/guides/",
+      "menu": "guides"
+    },
+    {
+      "label": "How It Works",
+      "href": "/how-it-works/"
+    },
+    {
+      "label": "About",
+      "href": "/about/"
+    },
+    {
+      "label": "FAQ",
+      "href": "/faq/"
+    },
+    {
+      "label": "Contact",
+      "href": "/contact/"
+    }
+  ],
+  "footer_links": [
+    {
+      "label": "How It Works",
+      "href": "/how-it-works/"
+    },
+    {
+      "label": "About",
+      "href": "/about/"
+    },
+    {
+      "label": "FAQ",
+      "href": "/faq/"
+    },
+    {
+      "label": "Contact",
+      "href": "/contact/"
+    },
+    {
+      "label": "Privacy Policy",
+      "href": "/privacy-policy.html"
+    },
+    {
+      "label": "Terms",
+      "href": "/terms.html"
+    }
+  ],
+  "services": [
+    {
+      "slug": "pressure-washing",
+      "url": "/pressure-washing/",
+      "name": "Residential Pressure Washing",
+      "short": "Pressure Washing",
+      "card_image": "pw-01-card.jpg",
+      "card_alt": "Worker pressure washing a concrete driveway in front of a brick house",
+      "summary": "Patios, walks, pool decks, porches and the rest of the hard surfaces around a DFW home, matched with a company that sets the pressure to the surface."
+    },
+    {
+      "slug": "house-washing",
+      "url": "/house-washing/",
+      "name": "House Washing and Soft Washing",
+      "short": "House Washing",
+      "card_image": "pw-05-card.jpg",
+      "card_alt": "Man soft washing the brick and siding of a two-story house",
+      "summary": "Brick, stone, stucco, fiber cement and vinyl washed with low pressure and a cleaning solution, so green film comes off without forcing water behind the wall."
+    },
+    {
+      "slug": "roof-soft-wash",
+      "url": "/roof-soft-wash/",
+      "name": "Roof Cleaning and Roof Soft Washing",
+      "short": "Roof Cleaning",
+      "card_image": "pw-03-card.jpg",
+      "card_alt": "Roof half cleaned, showing the difference between stained and clean tiles",
+      "summary": "Black streaks on shingles are usually algae. The shingle makers say never blast them, so the call goes to a company that soft washes roofs."
+    },
+    {
+      "slug": "driveway-cleaning",
+      "url": "/driveway-cleaning/",
+      "name": "Driveway and Concrete Cleaning",
+      "short": "Driveway Cleaning",
+      "card_image": "pw-hero.jpg",
+      "card_alt": "Freshly cleaned concrete driveway and walk in front of a brick home with a white garage door",
+      "summary": "Tire marks, oil drips, rust fans and the gray film on shaded concrete, cleaned evenly with a surface cleaner instead of striped with a wand."
+    },
+    {
+      "slug": "power-washing",
+      "url": "/power-washing/",
+      "name": "Commercial Power Washing",
+      "short": "Commercial",
+      "card_image": "pw-06-card.jpg",
+      "card_alt": "Worker pressure washing a sidewalk in front of a row of storefronts",
+      "summary": "Storefront walks, drive-thru lanes, dumpster pads and parking areas, washed by a company that knows the city's rules on where the dirty water goes."
+    },
+    {
+      "slug": "fence-cleaning",
+      "url": "/fence-cleaning/",
+      "name": "Fence Cleaning",
+      "short": "Fence Cleaning",
+      "card_image": "pw-02-card.jpg",
+      "card_alt": "Weathered wood privacy fence being cleaned with a spray wand",
+      "summary": "Gray, mildewed wood privacy fences brought back with a gentle wash, ready for stain, without tearing up the grain."
+    },
+    {
+      "slug": "deck-cleaning",
+      "url": "/deck-cleaning/",
+      "name": "Deck and Patio Cleaning",
+      "short": "Deck Cleaning",
+      "card_image": "pw-04-card.jpg",
+      "card_alt": "Weathered wood deck with patio furniture in the evening sun",
+      "summary": "Wood and composite decks, covered patios and pergolas cleaned the way the decking maker allows, so the warranty and the boards survive."
+    }
+  ],
+  "guides": [
+    {
+      "slug": "pressure-washing-cost",
+      "url": "/guides/pressure-washing-cost/",
+      "name": "How Much Does Pressure Washing Cost in DFW?",
+      "short": "Pressure Washing Cost",
+      "summary": "Published price ranges for houses, driveways, decks, fences and roofs, what pushes a quote up or down, and how to compare two quotes fairly."
+    },
+    {
+      "slug": "how-often-pressure-wash-house",
+      "url": "/guides/how-often-pressure-wash-house/",
+      "name": "How Often Should You Pressure Wash a House in North Texas?",
+      "short": "How Often to Wash a House",
+      "summary": "A season-by-season look at pollen, summer heat, spring storms and shade, and the signs that tell you it is time."
+    },
+    {
+      "slug": "power-washing-vs-pressure-washing",
+      "url": "/guides/power-washing-vs-pressure-washing/",
+      "name": "Power Washing vs Pressure Washing vs Soft Washing",
+      "short": "Power vs Pressure Washing",
+      "summary": "Hot water, cold water and low pressure with a cleaning solution: what each one is, and which surfaces around a DFW property need which."
+    },
+    {
+      "slug": "commercial-pressure-washing-cost",
+      "url": "/guides/commercial-pressure-washing-cost/",
+      "name": "What Does Commercial Pressure Washing Cost?",
+      "short": "Commercial Washing Cost",
+      "summary": "Published per square foot, per space and contract ranges for storefronts, lots, garages and dumpster pads, and what a business should get in writing."
+    },
+    {
+      "slug": "pressure-washing-license-texas",
+      "url": "/guides/pressure-washing-license-texas/",
+      "name": "Do You Need a License to Pressure Wash in Texas?",
+      "short": "Texas License Rules",
+      "summary": "What the state does and does not require, the Fort Worth permit for mobile washers, wash water rules and sales tax, with sources."
+    }
+  ],
+  "cities": [
+    {
+      "slug": "fort-worth",
+      "url": "/fort-worth-pressure-washing/",
+      "name": "Fort Worth",
+      "county": "Tarrant County",
+      "summary": "The city that permits mobile power washers and bans wash water in the storm drain, from the Stockyards to the historic districts."
+    },
+    {
+      "slug": "arlington",
+      "url": "/arlington-pressure-washing/",
+      "name": "Arlington",
+      "county": "Tarrant County",
+      "summary": "Between Dallas and Fort Worth, with stadium-district businesses, campus rentals and a drinking water lake inside the city."
+    },
+    {
+      "slug": "plano",
+      "url": "/plano-pressure-washing/",
+      "name": "Plano",
+      "county": "Collin County",
+      "summary": "Neighborhoods built in the 1970s to 1990s boom, a twice-a-week watering schedule and a busy corporate side along Legacy."
+    },
+    {
+      "slug": "frisco",
+      "url": "/frisco-pressure-washing/",
+      "name": "Frisco",
+      "county": "Collin and Denton counties",
+      "summary": "One of the fastest-growing cities in the country, so most neighborhoods were built after 2000 and many homes are on their first roof and fence."
+    },
+    {
+      "slug": "mckinney",
+      "url": "/mckinney-pressure-washing/",
+      "name": "McKinney",
+      "county": "Collin County",
+      "summary": "The county seat, with a historic downtown where exterior changes go through review and brand-new subdivisions on the edges."
+    },
+    {
+      "slug": "allen",
+      "url": "/allen-pressure-washing/",
+      "name": "Allen",
+      "county": "Collin County",
+      "summary": "A former railroad stop that grew from under 2,000 people in 1970 to more than 100,000, with a historic depot, newer subdivisions and busy retail centers."
+    },
+    {
+      "slug": "denton",
+      "url": "/denton-pressure-washing/",
+      "name": "Denton",
+      "county": "Denton County",
+      "summary": "Two universities, the Courthouse Square and storm drains that run to Lewisville Lake, a drinking water source for much of DFW."
+    },
+    {
+      "slug": "irving",
+      "url": "/irving-pressure-washing/",
+      "name": "Irving",
+      "county": "Dallas County",
+      "summary": "Las Colinas office towers and canal walks on one side, older East Irving neighborhoods on the other."
+    },
+    {
+      "slug": "carrollton",
+      "url": "/carrollton-pressure-washing/",
+      "name": "Carrollton",
+      "county": "Dallas, Denton and Collin counties",
+      "summary": "A three-county city with Koreatown storefronts along Old Denton Road and DART stations in its old downtown."
+    },
+    {
+      "slug": "addison",
+      "url": "/addison-pressure-washing/",
+      "name": "Addison",
+      "county": "Dallas County",
+      "summary": "A small town packed with restaurants, patios and apartments, which buys its water from Dallas."
+    },
+    {
+      "slug": "flower-mound",
+      "url": "/flower-mound-pressure-washing/",
+      "name": "Flower Mound",
+      "county": "Denton County",
+      "summary": "A town beside Grapevine Lake with Cross Timbers trees, larger lots and a staged water plan to check before washing."
+    }
+  ],
+  "sources": {
+    "bia": {
+      "label": "Brick Industry Association, Technical Note 20: Cleaning Brickwork",
+      "url": "https://gobrick.com/media/file/20-cleaning-brickwork.pdf"
+    },
+    "arma": {
+      "label": "Asphalt Roofing Manufacturers Association: Algae Discoloration",
+      "url": "https://www.asphaltroofing.org/algae-discoloration/"
+    },
+    "trex": {
+      "label": "Trex: How to Clean a Trex Deck",
+      "url": "https://www.trex.com/care"
+    },
+    "nws100": {
+      "label": "National Weather Service Fort Worth: 100 Degree Days at DFW",
+      "url": "https://www.weather.gov/fwd/d100info"
+    },
+    "nwsnormals": {
+      "label": "National Weather Service Fort Worth: 1991 to 2020 Climate Normals",
+      "url": "https://www.weather.gov/fwd/1991-2020_normals"
+    },
+    "nwsfeb2021": {
+      "label": "National Weather Service Fort Worth: February 2021 Winter Event",
+      "url": "https://weather.gov/fwd/Feb-2021-WinterEvent"
+    },
+    "hail": {
+      "label": "CBS Texas: Tarrant Tops Texas List of County-by-County Hailstorms (NWS records and Insurance Council of Texas, 2012)",
+      "url": "https://www.cbsnews.com/texas/news/tarrant-tops-texas-list-of-county-by-county-hailstorms"
+    },
+    "angi": {
+      "label": "Angi: How Much Does It Cost to Pressure Wash a House? (updated Oct 2026)",
+      "url": "https://angi.com/articles/how-much-does-it-cost-pressure-wash-house.htm"
+    },
+    "homeadvisor": {
+      "label": "HomeAdvisor: Pressure Washing Costs",
+      "url": "https://www.homeadvisor.com/cost/painting/powerwash-exterior-surfaces/"
+    },
+    "homeadvisor_drive": {
+      "label": "HomeAdvisor: Cost to Pressure Wash a Driveway (updated Jun 2026)",
+      "url": "https://www.homeadvisor.com/cost/cleaning-services/pressure-wash-driveway/"
+    },
+    "fixr": {
+      "label": "Fixr: Cost to Pressure Wash a House",
+      "url": "https://www.fixr.com/costs/pressure-wash-house"
+    },
+    "thumbtack": {
+      "label": "Thumbtack: Pressure Washing Prices",
+      "url": "https://thumbtack.com/p/power-washing-prices"
+    },
+    "thumbtack_freq": {
+      "label": "Thumbtack: How Often Should a House Be Pressure Washed?",
+      "url": "https://www.thumbtack.com/k/power-washing/"
+    },
+    "housecall": {
+      "label": "Housecall Pro: How to Price Pressure Washing Jobs (updated Oct 2026)",
+      "url": "https://housecallpro.com/resources/how-to-price-pressure-washing-jobs"
+    },
+    "next": {
+      "label": "NEXT Insurance: Pressure Washing vs. Power Washing",
+      "url": "https://www.nextinsurance.com/blog/pressure-washing-vs-power-washing/"
+    },
+    "familyhandyman": {
+      "label": "Family Handyman: A Full Guide to Power Washing the Deck",
+      "url": "https://www.familyhandyman.com/decks/deck-rescue-renew-your-deck"
+    },
+    "sherwin": {
+      "label": "Sherwin-Williams: How to Paint a House Exterior",
+      "url": "https://www.sherwin-williams.com/en-us/project-center/paint/exterior-painting-how-tos"
+    },
+    "dallas_sw": {
+      "label": "City of Dallas Stormwater: Keep Stormwater Clean (2021)",
+      "url": "https://dallascityhall.com/departments/waterutilities/stormwater-operations/PublishingImages/Keep%20Stormwater%20Clean%20Feb%2023_2021.pdf"
+    },
+    "dallas_dcp": {
+      "label": "City of Dallas and Dallas Water Utilities: 2019 Drought Contingency Plan",
+      "url": "https://dallascityhall.com/departments/waterutilities/dch%20documents/pdf/drought-contingency-plan.pdf"
+    },
+    "fw_powerwash": {
+      "label": "City of Fort Worth: Mobile Commercial Cosmetic Cleaning (Power Washer) Regulation",
+      "url": "https://www.fortworthtexas.gov/departments/environmental-services/environmental-quality/stormwater-quality/powerwash"
+    },
+    "fw_faq": {
+      "label": "City of Fort Worth: Commercial Cosmetic Cleaner FAQ (2021)",
+      "url": "https://www.fortworthtexas.gov/files/assets/public/code-compliance/env/documents/code-environmental-commercial-cosmetic-cleaner-faq-sheet-2021.pdf"
+    },
+    "fw_water": {
+      "label": "City of Fort Worth: Year-Round Outdoor Watering Requirements",
+      "url": "https://www.fortworthtexas.gov/departments/water/savefwwater/irrigation/twice-per-week"
+    },
+    "fw_historic": {
+      "label": "City of Fort Worth: Historic Districts",
+      "url": "https://www.fortworthtexas.gov/departments/development-services/historic-preservation/historic-districts"
+    },
+    "nctcog": {
+      "label": "North Central Texas Council of Governments: Stormwater FAQ",
+      "url": "https://www.nctcog.org/getmedia/412c370f-57ab-4cd2-917a-1028f2033eb6/Stormwater-FAQ.pdf"
+    },
+    "mastergardeners": {
+      "label": "Dallas County Master Gardeners: Foundation Plants for DFW Homes",
+      "url": "https://dallascountymastergardeners.org/foundation-plants-for-dfw-homes/"
+    },
+    "pollen": {
+      "label": "NBC 5 DFW: Pollen Levels High, Here's What's in the Air (2022)",
+      "url": "https://www.nbcdfw.com/weather/weather-connection/pollen-levels-stay-high-through-the-weekend-heres-whats-in-the-air/2928850/"
+    },
+    "gov_permits": {
+      "label": "Office of the Texas Governor: Business Permits Office",
+      "url": "https://gov.texas.gov/business/page/business-permits-office"
+    },
+    "tdlr": {
+      "label": "Texas Department of Licensing and Regulation: TDLR at a Glance",
+      "url": "https://www.tdlr.texas.gov/media/pdf/tdlr-at-a-glance.pdf"
+    },
+    "comptroller": {
+      "label": "Texas Comptroller: Cleaning and Janitorial Services (Publication 94-111)",
+      "url": "https://comptroller.texas.gov/taxes/publications/94-111.php"
+    },
+    "denton_ws": {
+      "label": "City of Denton: Residential Watershed Protection",
+      "url": "https://www.cityofdenton.com/248/Residential-Watershed-Protection"
+    },
+    "denton_dcp": {
+      "label": "City of Denton: 2019 Water Conservation and Drought Contingency Plan",
+      "url": "https://www.cityofdenton.com/DocumentCenter/View/1818/2019-040-Water-Conservation-and-Drought-Contingency-Plan-Update-PDF"
+    },
+    "denton_stage2": {
+      "label": "Hoodline: Denton Escalates to Stage Two Water Restrictions (Aug 2024)",
+      "url": "https://hoodline.com/2024/08/denton-escalates-to-stage-two-water-restrictions-amidst-high-demand-and-treatment-plant-repairs/"
+    },
+    "plano_water": {
+      "label": "City of Plano: Spring and Summer Watering Guidelines (Apr 2026)",
+      "url": "https://content.civicplus.com/api/assets/tx-plano/cbc19b52-5c28-430c-9f92-097cffc71055"
+    },
+    "ntmwd": {
+      "label": "North Texas Municipal Water District: History",
+      "url": "https://ntmwd.com/375/History"
+    },
+    "arlington_wash": {
+      "label": "City of Arlington: Car Washing and Stormwater",
+      "url": "https://www.arlingtontx.gov//Userfiles/DBFiles/server_14481062/202305/19578838/car_washing_stormwater_the_dirty_truth_about_washing_your_car_at_home.pdf"
+    },
+    "arlington_lake": {
+      "label": "City of Arlington: Lake Arlington Water Infrastructure Project (2022)",
+      "url": "https://www.arlingtontx.gov/News-Articles/2022/May/Celebration-Held-for-21M-Lake-Arlington-Water-Infrastructure-Project"
+    },
+    "irving_sw": {
+      "label": "City of Irving via Patch: Only Rain Down the Drain (2021)",
+      "url": "https://patch.com/texas/irving-tx/city-irving-pollution-prevention-only-rain-down-drain"
+    },
+    "mckinney_hp": {
+      "label": "City of McKinney: Historic Preservation FAQs",
+      "url": "https://www.mckinneytexas.org/faq.aspx?TID=15"
+    },
+    "addison_dcp": {
+      "label": "Town of Addison: Drought Contingency Plan (council packet, 2019)",
+      "url": "https://agendas.addisontx.gov/docs/2019/CM/20190528_5564/3125%5FDrought%20Contingency%20Plan%2005172019%2Epdf"
+    },
+    "flowermound_water": {
+      "label": "Community Impact: Flower Mound Limits Outdoor Watering (2018)",
+      "url": "https://communityimpact.com/lewisville-flower-mound-highland-village/news/town-of-flower-mound-puts-limitations-on-outdoor-watering-due-to-lack-of-rainfall-and-high-temperatures/"
+    },
+    "wiki_dallas": {
+      "label": "Wikipedia: Dallas",
+      "url": "https://en.wikipedia.org/wiki/Dallas"
+    },
+    "wiki_fortworth": {
+      "label": "Wikipedia: Fort Worth, Texas",
+      "url": "https://en.wikipedia.org/wiki/Fort_Worth,_Texas"
+    },
+    "wiki_arlington": {
+      "label": "Wikipedia: Arlington, Texas",
+      "url": "https://en.wikipedia.org/wiki/Arlington,_Texas"
+    },
+    "wiki_plano": {
+      "label": "Wikipedia: Plano, Texas",
+      "url": "https://en.wikipedia.org/wiki/Plano,_Texas"
+    },
+    "wiki_frisco": {
+      "label": "Wikipedia: Frisco, Texas",
+      "url": "https://en.wikipedia.org/wiki/Frisco,_Texas"
+    },
+    "wiki_mckinney": {
+      "label": "Wikipedia: McKinney, Texas",
+      "url": "https://en.wikipedia.org/wiki/McKinney,_Texas"
+    },
+    "wiki_allen": {
+      "label": "Wikipedia: Allen, Texas",
+      "url": "https://en.wikipedia.org/wiki/Allen,_Texas"
+    },
+    "wiki_denton": {
+      "label": "Wikipedia: Denton, Texas",
+      "url": "https://en.wikipedia.org/wiki/Denton,_Texas"
+    },
+    "wiki_irving": {
+      "label": "Wikipedia: Irving, Texas",
+      "url": "https://en.wikipedia.org/wiki/Irving,_Texas"
+    },
+    "wiki_lascolinas": {
+      "label": "Wikipedia: Las Colinas, Irving, Texas",
+      "url": "https://en.wikipedia.org/wiki/Las_Colinas,_Irving,_Texas"
+    },
+    "wiki_carrollton": {
+      "label": "Wikipedia: Carrollton, Texas",
+      "url": "https://en.wikipedia.org/wiki/Carrollton,_Texas"
+    },
+    "wiki_addison": {
+      "label": "Wikipedia: Addison, Texas",
+      "url": "https://en.wikipedia.org/wiki/Addison,_Texas"
+    },
+    "wiki_flowermound": {
+      "label": "Wikipedia: Flower Mound, Texas",
+      "url": "https://en.wikipedia.org/wiki/Flower_Mound,_Texas"
+    },
+    "frisco_sw": {
+      "label": "City of Frisco: Stormwater FAQ",
+      "url": "https://www.friscotexas.gov/Faq.aspx?TID=32"
+    }
+  }
+}

@@ -1,0 +1,109 @@
+{# Shared page components. Every page body can call these as m.<name>(...). #}
+
+{% macro service_cards(slugs=None, more='Read more', images=False) -%}
+{# Text cards by default: every photo is used once per page, and the in-body figures need them. #}
+<div class="cards">
+{% for s in site.services if slugs is none or s.slug in slugs %}
+  <article class="card{% if not images %} card--text{% endif %}">
+    {% if images and s.card_image and image_exists(s.card_image) %}{% set sz = img_size(s.card_image) %}<img src="/images/{{ s.card_image }}" alt="{{ s.card_alt }}" width="{{ sz[0] }}" height="{{ sz[1] }}" loading="lazy" decoding="async">{% endif %}
+    <div class="card__body">
+      <h3><a href="{{ s.url }}">{{ s.name }}</a></h3>
+      <p>{{ s.summary }}</p>
+      <p class="card__more" aria-hidden="true">{{ more }}</p>
+    </div>
+  </article>
+{% endfor %}
+</div>
+{%- endmacro %}
+
+{% macro guide_cards(slugs=None) -%}
+<div class="cards">
+{% for g in site.guides if slugs is none or g.slug in slugs %}
+  <article class="card card--text">
+    <div class="card__body">
+      <h3><a href="{{ g.url }}">{{ g.name }}</a></h3>
+      <p>{{ g.summary }}</p>
+      <p class="card__more" aria-hidden="true">Read the guide</p>
+    </div>
+  </article>
+{% endfor %}
+</div>
+{%- endmacro %}
+
+{% macro city_cards(exclude=None) -%}
+<div class="cards">
+{% for c in site.cities if c.slug != exclude %}
+  <article class="card card--text">
+    <div class="card__body">
+      <h3><a href="{{ c.url }}">{{ c.name }}</a></h3>
+      <p class="card__county">{{ c.county }}</p>
+      <p>{{ c.summary }}</p>
+      <p class="card__more" aria-hidden="true">See {{ c.name }}</p>
+    </div>
+  </article>
+{% endfor %}
+</div>
+{%- endmacro %}
+
+{% macro city_pills(exclude=None) -%}
+<ul class="pill-list">
+  <li><a href="/service-areas/">All of Dallas-Fort Worth</a></li>
+{% for c in site.cities if c.slug != exclude %}
+  <li><a href="{{ c.url }}">{{ c.name }}</a></li>
+{% endfor %}
+</ul>
+{%- endmacro %}
+
+{% macro related(slugs, title='Related pages') -%}
+<h2>{{ title }}</h2>
+<ul class="pill-list">
+{% for slug in slugs %}
+  {% if slug.startswith('guide:') %}{% set g = guide(slug[6:]) %}<li><a href="{{ g.url }}">{{ g.name }}</a></li>
+  {% elif slug.startswith('city:') %}{% set c = city(slug[5:]) %}<li><a href="{{ c.url }}">Pressure washing in {{ c.name }}</a></li>
+  {% else %}{% set s = svc(slug) %}<li><a href="{{ s.url }}">{{ s.name }}</a></li>{% endif %}
+{% endfor %}
+</ul>
+{%- endmacro %}
+
+{% macro call_box(text='Not sure what the surface needs? Call and describe it. The company you are connected with can tell you how it would clean it and what it would charge.') -%}
+<div class="note note--amber">
+  <p>{{ text }}</p>
+  <p><a class="btn btn--navy btn--sm" href="tel:{{ site.business.phone_tel }}">{{ site.cta.primary_label }}</a></p>
+</div>
+{%- endmacro %}
+
+{% macro how_it_works_short() -%}
+<ol class="how-strip">
+  <li><strong>Call any hour</strong>An automated assistant answers {{ site.business.phone_display }}, day or night, and first asks what kind of help you need.</li>
+  <li><strong>Describe the job</strong>Say what needs cleaning and roughly how big it is: a two-story house, a three-car driveway, a fence line, a storefront walk.</li>
+  <li><strong>Get put through</strong>The call goes to an independent, locally owned DFW pressure washing company, which hears a short summary before it picks up.</li>
+  <li><strong>Deal with them directly</strong>That company inspects, quotes, does the work and is paid by you. If it cannot pick up, your details are passed on for a call back.</li>
+</ol>
+{%- endmacro %}
+
+{% macro disclosure() -%}
+<div class="note">
+  <p><strong>About this line:</strong> {{ site.business.short_disclosure }} {{ site.business.referral_disclosure }} <a href="/how-it-works/">See how the line works</a>.</p>
+</div>
+{%- endmacro %}
+
+{% macro video(id, title, thumb) -%}
+{# YouTube click-to-play: a thumbnail and play button; the iframe is only created on click (site.js). #}
+<div class="video" data-yt="{{ id }}">
+  <button type="button" class="video__play" aria-label="Play video: {{ title }}">
+    {% set sz = img_size(thumb) %}<img src="/images/{{ thumb }}" alt="" width="{{ sz[0] }}" height="{{ sz[1] }}" loading="lazy" decoding="async">
+    <span class="video__icon" aria-hidden="true"></span>
+  </button>
+</div>
+{%- endmacro %}
+
+{% macro sources(items) -%}
+<aside class="sources" aria-labelledby="sources-title">
+  <h2 id="sources-title">Sources</h2>
+  <ul>
+  {% for s in items %}
+    <li><a href="{{ s.url }}" target="_blank" rel="noopener">{{ s.label }}<span class="sr"> (opens in a new tab)</span></a></li>
+  {% endfor %}
+  </ul>
+</aside>
+{%- endmacro %}
