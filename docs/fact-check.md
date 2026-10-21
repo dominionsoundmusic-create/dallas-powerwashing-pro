@@ -49,3 +49,27 @@ These are common, non-numeric building facts, stated plainly. A re-checker may w
 - Texas A&M AgriLife pesticide licensing page (redirect blocked). Because of that, the site makes **no** claim either
   way about whether soft washing chemicals require a Texas pesticide license. That question is worth a separate look.
 - Medical sources on pressure washer injuries (redirects blocked). The site makes no injury statistics claims.
+
+## Independent fact-check (Oct 21 2026)
+
+The pass above was done by the agent that wrote the pages. Afterwards, three separate agents that
+wrote none of the pages checked every factual claim against the cited sources and the live web,
+and fixed what they found directly in the page files. Their claim-by-claim tables:
+
+| Pages | Claims checked | Confirmed | Corrected | Softened | Removed | Table |
+|---|---|---|---|---|---|---|
+| 11 town pages | 105 | 89 | 7 | 9 | 0 | docs/fact-check-towns.md |
+| 7 service pages | 48 | 38 | 5 | 5 | 0 | docs/fact-check-services.md |
+| 13 core and guide pages | 55 groups | 41 | 4 | 10 | 0 | docs/fact-check-core.md |
+
+Follow-ups applied by the main session: Frisco stormwater FAQ added as a source (frisco_sw); the
+`hail` source label now credits NWS records as well as the Insurance Council of Texas; the deck
+page drops HomeAdvisor's 2022-only $250 to $400 range and keeps Angi's current $100 to $200.
+
+Open for Maurice: whether soft wash algae or mildew treatments need a Texas Department of
+Agriculture pesticide license is not stated anywhere on the site, because no official source was
+found either way.
+
+After the fixes: build.py and check.py 0 errors (1 warning, short Carrollton page), 70 old URLs
+0 failing, similarity highest 1.6% between service pages and 12.6% against Houston, banned-word
+and dash greps clean, browser QA 34 routes x 4 widths 0 failures.
