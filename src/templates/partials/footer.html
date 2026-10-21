@@ -1,0 +1,32 @@
+{% set b = site.business %}
+{% set socials = [('facebook','Facebook'),('instagram','Instagram'),('tiktok','TikTok'),('youtube','YouTube'),('google_business','Google Business Profile')] %}
+<footer class="site-footer">
+  <div class="wide site-footer__grid">
+    <div class="site-footer__brand">
+      <a href="/" class="logo"><img src="{{ b.logo }}" alt="{{ b.name }}" width="{{ b.logo_width }}" height="{{ b.logo_height }}" loading="lazy"></a>
+      <p class="site-footer__disclosure">{{ b.short_disclosure }} {{ b.referral_disclosure }}</p>
+      <p><a class="site-footer__phone" href="tel:{{ b.phone_tel }}">{{ b.phone_display }}</a><br><span class="small">Answered 24/7 by an automated assistant.</span></p>
+      {% set active = [] %}{% for key, label in socials %}{% if site.social[key] %}{% set _ = active.append((key, label)) %}{% endif %}{% endfor %}
+      {% if active %}
+      <ul class="social">
+        {% for key, label in active %}
+        <li><a href="{{ site.social[key] }}" target="_blank" rel="noopener" aria-label="{{ b.name }} on {{ label }} (opens in a new tab)">{% include "partials/icons/" ~ key ~ ".svg" %}</a></li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+    </div>
+    <div class="site-footer__rows">
+      <p class="site-footer__label">Services</p>
+      <ul class="site-footer__row">{% for s in site.services %}<li><a href="{{ s.url }}">{{ s.name }}</a></li>{% endfor %}</ul>
+      <p class="site-footer__label">Service areas</p>
+      <ul class="site-footer__row"><li><a href="/service-areas/">All of Dallas-Fort Worth</a></li>{% for c in site.cities %}<li><a href="{{ c.url }}">{{ c.name }}</a></li>{% endfor %}</ul>
+      <p class="site-footer__label">Guides</p>
+      <ul class="site-footer__row">{% for g in site.guides %}<li><a href="{{ g.url }}">{{ g.short }}</a></li>{% endfor %}</ul>
+      <p class="site-footer__label">Company</p>
+      <ul class="site-footer__row">{% for l in site.footer_links %}<li><a href="{{ l.href }}">{{ l.label }}</a></li>{% endfor %}</ul>
+    </div>
+  </div>
+  <div class="site-footer__bottom">
+    <p>{{ b.copyright }} <span class="dot" aria-hidden="true">·</span> <a href="{{ b.credit_url }}" target="_blank" rel="noopener">{{ b.credit_text }}<span class="sr"> (opens in a new tab)</span></a></p>
+  </div>
+</footer>

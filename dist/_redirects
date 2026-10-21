@@ -1,4 +1,10 @@
-# redirects
+# redirects (dallaspowerwashingpro.com)
+# Rules here only apply when no real page exists at the path (no "!" force flag is used anywhere).
+
+# Oct 21 2026 Playbook 2.0 rebuild: the site is phone only. The old contact form thank-you page is retired.
+/contact/thanks/  /contact/  301
+/contact/thanks  /contact/  301
+/contact/thanks/index.html  /contact/  301
 
 # Sep 11 2026 - templated city pages retired; wildcards send them to the hub.
 /deck-cleaning/*  /deck-cleaning/  301

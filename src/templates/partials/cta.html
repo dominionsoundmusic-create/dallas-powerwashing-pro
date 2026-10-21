@@ -1,0 +1,15 @@
+{% set b = site.business %}
+<section class="band band--navy cta" aria-labelledby="cta-title">
+  <div class="wide cta__grid cta__grid--single">
+    <div class="cta__text">
+      <h2 id="cta-title">{{ page.cta_title | default('Talk to a local pressure washing company today') }}</h2>
+      <p>{{ page.cta_text | default('Call the free line any hour. Say what needs cleaning and roughly how big it is, and the call is put through to an independent, locally owned DFW company that looks at the job and gives you its own price.') }}</p>
+      <p><a class="btn btn--amber btn--big" href="tel:{{ b.phone_tel }}">{{ site.cta.primary_label }}</a></p>
+      <ul class="cta__facts">
+        <li>Answered 24 hours a day, 7 days a week by an automated assistant</li>
+        <li>Free to call. You never pay the line.</li>
+        <li>The company you are connected with inspects, quotes, does the work and is paid by you directly.</li>
+      </ul>
+    </div>
+  </div>
+</section>

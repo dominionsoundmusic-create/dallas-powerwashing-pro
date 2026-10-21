@@ -1,0 +1,15 @@
+{% set h = page.hero %}
+<section class="hero hero--{{ h.size | default('full') }}">
+  <img class="hero__img" src="/images/{{ h.render_image }}" alt="{{ h.render_alt }}" width="{{ h.w }}" height="{{ h.h }}" fetchpriority="high" decoding="async"{% if h.position is defined %} style="object-position:{{ h.position }}"{% endif %}>
+  {% if h.image != h.render_image %}<!-- planned hero (see docs/image-list.md): <img src="/images/{{ h.image }}" alt="{{ h.alt }}" width="1920" height="1080"> -->{% endif %}
+  <div class="hero__fade" aria-hidden="true"></div>
+  <div class="hero__inner">
+    <h1>{{ page.h1 }}</h1>
+    <p class="hero__lead">{{ h.lead }}</p>
+    <div class="btn-row">
+      <a class="btn btn--amber" href="tel:{{ site.business.phone_tel }}">{{ site.cta.primary_label }}</a>
+      <a class="btn btn--ghost" href="{{ h.secondary_href | default(site.cta.secondary_href) }}">{{ h.secondary_label | default(site.cta.secondary_label) }}</a>
+    </div>
+    {% if h.note is defined %}<p class="hero__note">{{ h.note }}</p>{% endif %}
+  </div>
+</section>
