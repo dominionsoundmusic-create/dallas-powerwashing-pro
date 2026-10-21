@@ -1,0 +1,61 @@
+---
+type: city
+city_name: "Irving"
+title: "Pressure Washing Irving TX | Las Colinas, Valley Ranch, East Irving"
+description: "Pressure washing in Irving, TX for homes in East Irving and Valley Ranch, Las Colinas offices and apartment properties. Call the free line any hour."
+h1: "Pressure Washing in Irving"
+crumb: "Irving"
+keyword: "pressure washing irving tx"
+hero:
+  image: irving-tx-las-colinas-canal-walk-hero.jpg
+  alt: "Clean stone walkway beside a canal lined with mid-rise buildings in Las Colinas, Irving, Texas"
+  desc: "A bright, wide photo of a clean pale stone pedestrian walkway running beside a calm urban canal in Las Colinas, Irving, Texas, on a sunny morning, with mid-rise office and apartment buildings, planters and trees along the water and a clear blue sky. Walkway on the right third of the frame. No people, no readable signs."
+  fallback: pw-06-hero.jpg
+  fallback_alt: "Worker power washing a storefront sidewalk with a long spray wand"
+  lead: "Office towers and canal walks in Las Colinas, older neighborhoods in East Irving, and master-planned streets in Valley Ranch. Call the free line and you are put through to a local company that serves Irving."
+schema_service:
+  name: "Free connection to a local pressure washing company in Irving, Texas"
+  type: "Pressure washing referral"
+sources: [wiki_irving, wiki_lascolinas, irving_sw, dallas_sw, bia]
+faqs:
+  - q: "Who does pressure washing in Irving?"
+    a: "<p>Independent local companies. This free line connects you with one and does not clean anything itself. Call any hour, say the job is in Irving, and you are transferred to an independent, locally owned company that quotes, does the work and is paid by you.</p>"
+  - q: "Does Irving allow wash water in the storm drain?"
+    a: "<p>No. The City of Irving says the only thing that belongs in the storm drain is rain and that a city ordinance prohibits putting pollutants into the storm drain system. A good company blocks the drain and controls runoff, especially when it uses cleaners.</p>"
+  - q: "Can apartment and office properties in Irving book through the line?"
+    a: "<p>Yes. Say it is a commercial or multifamily property and roughly how large, and the company you are put through to can quote breezeways, stairs, pool decks, entries and parking areas.</p>"
+cta_title: "Irving home or property? Call the free line"
+---
+{% block content %}
+<section class="prose">
+  <h2>Pressure washing across Irving's very different neighborhoods</h2>
+  <p>Irving is a Dallas County city of 256,684 people, the twelfth largest in Texas at the 2020 census, and part of DFW Airport lies inside its limits. It is really three places in one. Las Colinas, developed from a ranch beginning in 1972, is a planned district of more than 12,000 acres with office towers, the Mandalay Canal, Lake Carolyn and the Mustangs of Las Colinas sculpture. Valley Ranch is a master-planned area that was home to the Dallas Cowboys' headquarters from 1985 to 2016. And East Irving has the city's older neighborhoods.</p>
+  <p>This line connects you with an independent, locally owned pressure washing company for any of them. It does not clean anything itself. You call, an assistant transfers you, and the company quotes, does the work and is paid by you.</p>
+</section>
+
+<section class="band band--sky">
+  <div class="wide">
+    <div class="split">
+      <div>
+        <h2>Three kinds of Irving jobs</h2>
+        <ul class="checks">
+          <li><strong>East Irving homes:</strong> older brick and siding, driveways and walks. The Brick Industry Association says high pressure is not appropriate for brick, so expect a soft wash.</li>
+          <li><strong>Valley Ranch and newer streets:</strong> stone fronts, fences, pool decks and drives.</li>
+          <li><strong>Las Colinas and apartments:</strong> entries, canal-side walks, breezeways, stairs and parking, usually on a schedule and outside business hours.</li>
+        </ul>
+      </div>
+      {{ img('pw-05-card.jpg', 'Man soft washing the brick and siding of a two-story house', 620, 620) }}
+    </div>
+  </div>
+</section>
+
+<section class="prose">
+  <h2>Only rain down the drain</h2>
+  <p>In a 2021 notice, the City of Irving said "the only thing that belongs in the storm drain is rain," that yard waste and other debris clog pipes and cause flooding, and that a city ordinance prohibits introducing pollutants into the storm drain system. Irving is in Dallas County next door to Dallas, whose own guidance spells out that soapy or chemical wash water must be kept out of drains and collected. Ask any company how it handles runoff before it starts.</p>
+  {{ m.call_box('Say the property is in Irving, whether it is a home, apartment community or office, and what needs cleaning.') }}
+  {{ img('pw-01-card.jpg', 'Worker pressure washing a concrete driveway in front of a brick house', 1200, 675, caption='Drives and walks in East Irving neighborhoods are cleaned with a surface cleaner, stains treated first.') }}
+  <h2>Nearby areas</h2>
+  {{ m.city_pills('irving') }}
+  {{ m.disclosure() }}
+</section>
+{% endblock %}

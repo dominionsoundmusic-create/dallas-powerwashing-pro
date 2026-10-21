@@ -1,0 +1,58 @@
+---
+type: hub
+title: "Pressure Washing Guides for Dallas-Fort Worth Homes and Businesses"
+description: "Plain-English pressure washing guides for DFW: what it costs, how often to wash a house, power vs pressure vs soft washing, commercial rates and Texas rules."
+h1: "Pressure Washing Guides for Dallas-Fort Worth"
+crumb: "Guides"
+hero:
+  image: guides-dallas-homeowner-reading-hero.jpg
+  alt: "Covered back patio of a Dallas-area brick home with a table, a tablet and a cup of coffee, the yard and fence beyond"
+  desc: "A bright, wide photo of a covered back patio behind a brick home in a North Texas suburb in the morning. A wooden outdoor table in the right third of the frame holds a tablet lying face up with a blank screen, a notepad and a coffee mug. Beyond the patio, a green lawn, a cedar fence and a live oak in soft sunlight. No people, no text on screens."
+  fallback: pw-06-hero.jpg
+  fallback_alt: "Worker power washing a storefront sidewalk with a long spray wand"
+  lead: "Short, sourced guides that answer the questions people ask before they hire anyone: price, timing, method and the rules in Texas."
+sources: [angi, thumbtack_freq, next, housecall, gov_permits]
+faqs:
+  - q: "Where do the prices in these guides come from?"
+    a: "<p>From published national price guides, each named and dated: Angi, HomeAdvisor, Fixr, Thumbtack and Housecall Pro. Dallas Power Washing Pro has no prices of its own because it does not do the work. A local company gives the real price after seeing the job.</p>"
+  - q: "Are these guides legal advice?"
+    a: "<p>No. The Texas rules guide summarizes what state agencies and DFW cities publish, with links, so you can check them yourself. For your own legal or tax question, go to the agency or a professional.</p>"
+  - q: "Do the guides tell me how to pressure wash myself?"
+    a: "<p>No. They explain what a good company should do and why, so you can ask the right questions. They do not give machine settings or chemical mixing instructions, because the wrong ones damage brick, shingles and wood and can hurt people.</p>"
+---
+{% block content %}
+<section class="prose">
+  <p class="lead">These guides answer the questions that come up most on the free line, using published sources you can check. Each one is written for Dallas-Fort Worth: the clay soil, the pollen, the hail, the summer heat and the local rules.</p>
+  <h2>All five guides</h2>
+  {{ m.guide_cards() }}
+</section>
+
+<section class="band band--sky">
+  <div class="wide">
+    <div class="split">
+      <div>
+        <h2>The three questions almost everyone asks</h2>
+        <h3>What will it cost?</h3>
+        <p>Angi's October 2026 guide puts most whole-house jobs nationally between $213 and $449. The <a href="/guides/pressure-washing-cost/">cost guide</a> lists every surface and what moves the price.</p>
+        <h3>How often?</h3>
+        <p>Thumbtack's rule of thumb is at least once a year, more with lots of rain, wind and storms. The <a href="/guides/how-often-pressure-wash-house/">frequency guide</a> adjusts that for North Texas seasons.</p>
+        <h3>Which method?</h3>
+        <p>Power washing uses hot water, pressure washing cold, and soft washing low pressure with a cleaning solution. The <a href="/guides/power-washing-vs-pressure-washing/">methods guide</a> matches each to a surface.</p>
+      </div>
+      {{ img('pw-05-card.jpg', 'Man soft washing the brick and siding of a two-story house', 620, 620) }}
+    </div>
+  </div>
+</section>
+
+<section class="prose">
+  <div class="split">
+    <div>
+      <h2>For business owners</h2>
+      <p>The <a href="/guides/commercial-pressure-washing-cost/">commercial rates guide</a> covers per square foot, per space, hourly and monthly contract pricing from Housecall Pro's October 2026 benchmark. The <a href="/guides/pressure-washing-license-texas/">Texas rules guide</a> explains why there is no state license, what Fort Worth's mobile washer permit requires, and what DFW cities say about wash water in storm drains.</p>
+      {{ m.call_box() }}
+    </div>
+    {{ img('pw-01-card.jpg', 'Worker pressure washing a concrete driveway in front of a brick house', 1200, 675) }}
+  </div>
+  {{ m.disclosure() }}
+</section>
+{% endblock %}

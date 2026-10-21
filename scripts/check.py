@@ -111,8 +111,8 @@ def url_of(path, dist):
     rel = path.relative_to(dist).as_posix()
     if rel == "index.html":
         return "/"
-    if rel == "404.html":
-        return "/404.html"
+    if rel == "404.html" or (rel.endswith(".html") and not rel.endswith("index.html")):
+        return "/" + rel
     return "/" + rel[: -len("index.html")]
 
 

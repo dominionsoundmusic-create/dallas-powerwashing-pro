@@ -1,0 +1,77 @@
+---
+type: hub
+title: "Pressure Washing Services in Dallas-Fort Worth | All Services"
+description: "Every pressure washing and soft washing service the free Dallas-Fort Worth line connects callers with: homes, roofs, driveways, fences, decks and businesses."
+h1: "Pressure Washing Services in Dallas-Fort Worth"
+crumb: "Services"
+keyword: "pressure washing services dallas"
+hero:
+  image: services-overview-dallas-home-exterior-hero.jpg
+  alt: "Front of a brick and stone home in a Dallas suburb with a clean roof, siding, driveway, walk and wood fence"
+  desc: "A bright, wide, slightly elevated photo of a two-story brick and stone home in a North Texas suburb on a clear spring day, showing a clean gray shingle roof, light siding on the upper story, a long clean concrete driveway, a front walk, and a cedar privacy fence along the side yard. Green lawn, trimmed shrubs, a young live oak, deep blue sky. No people."
+  fallback: pw-03-hero.jpg
+  fallback_alt: "Tile roof half cleaned, stained tiles on one side and clean tiles on the other"
+  lead: "Houses, roofs, driveways, fences, decks and storefronts. One free number connects you with an independent local company for any of them, and it can quote several surfaces on one visit."
+sources: [bia, arma, trex, angi]
+faqs:
+  - q: "What services can I get through the line?"
+    a: "<p>Residential pressure washing of patios, walks and pool decks; house washing and soft washing; roof cleaning; driveway and concrete cleaning; commercial power washing; fence cleaning; and deck and patio cleaning. The line connects you; the company you reach decides what it offers and quotes it.</p>"
+  - q: "Can I get several things cleaned in one visit?"
+    a: "<p>Usually, yes. Many people book the house, driveway and walks together, or a fence and deck together. Tell the assistant everything you want cleaned so the company can price each surface on one visit. Bundling often lowers the cost per square foot.</p>"
+  - q: "What services are not handled?"
+    a: "<p>Painting, sealing or staining as a main service, detailed window cleaning, gutter repair, mold remediation inside the home, car washing, equipment sales or rentals and house cleaning (maid service) are not part of this line. Some companies offer sealing or staining after a cleaning; ask them directly.</p>"
+  - q: "Does the line itself do any of the cleaning?"
+    a: "<p>No. Dallas Power Washing Pro is a free phone line, not a pressure washing company. It answers your call and connects you with an independent local company, which inspects, quotes and does the work, and which you pay directly. Companies may pay the line a referral fee.</p>"
+---
+{% block content %}
+<section class="prose">
+  <p class="lead">Pressure washing services in Dallas-Fort Worth fall into two families: surfaces that can take pressure, like concrete, and surfaces that cannot, like brick walls, shingles and wood. Every service below is matched to the right method, and every one starts with the same free call.</p>
+  <p>Dallas Power Washing Pro is a phone line and website. An automated assistant answers any hour, asks what you need cleaned, and transfers you to an independent, locally owned DFW pressure washing company that inspects, quotes and does the work. You pay that company directly.</p>
+</section>
+
+<section class="prose">
+  <h2>Around the house</h2>
+  {{ m.service_cards(['pressure-washing', 'house-washing', 'roof-soft-wash', 'driveway-cleaning']) }}
+  <div class="split">
+    <div>
+      <h3>How these differ</h3>
+      <p><strong>Residential pressure washing</strong> covers hard ground: patios, walks, pool decks, porches. <strong>House washing</strong> is the walls, done as a soft wash, because the Brick Industry Association warns high pressure can damage brick and mortar. <strong>Roof cleaning</strong> is soft wash only; the shingle makers' association says never to power wash a roof. <strong>Driveway cleaning</strong> is the one place a surface cleaner and real pressure belong, with oil and rust treated first.</p>
+    </div>
+    {{ img('pw-05-card.jpg', 'Man soft washing the brick and siding of a two-story house', 620, 620) }}
+  </div>
+</section>
+
+<section class="band band--sky">
+  <div class="wide">
+    <h2>Backyard wood and outdoor living</h2>
+    {{ m.service_cards(['fence-cleaning', 'deck-cleaning']) }}
+    <p>Wood fences and decks are cleaned with a wood cleaner and a gentle rinse, then left to dry for several days before stain. Composite decks follow the maker's rules; Trex, for one, limits pressure washing on its newer boards and advises against it on early-generation boards.</p>
+  </div>
+</section>
+
+<section class="prose">
+  <h2>For businesses and property managers</h2>
+  {{ m.service_cards(['power-washing']) }}
+  <div class="split">
+    <div>
+      <p>Storefront walks, drive-thru lanes, dumpster pads, building faces and parking areas, often on a recurring schedule. Commercial work in DFW comes with storm water rules, and in Fort Worth a city permit for mobile washers. See <a href="/guides/commercial-pressure-washing-cost/">commercial pressure washing rates</a> for published price ranges.</p>
+      {{ m.call_box('Several surfaces? Tell the assistant all of them. The company you are put through to can price each one separately on a single visit.') }}
+    </div>
+    {{ img('pw-06-card.jpg', 'Worker pressure washing the sidewalk in front of a row of storefronts', 1200, 675) }}
+  </div>
+</section>
+
+<section class="band band--navy">
+  <div class="col">
+    <h2>Not offered through this line</h2>
+    <p>To keep calls useful, these are not handled: painting, sealing or staining as a main service, detailed window cleaning, gutter repair, mold remediation inside the home, car washing, equipment sales or rentals, and house cleaning. The same number takes AC and heating, roofing, water damage and mold calls for the Dallas area, so the assistant asks first what you need.</p>
+  </div>
+</section>
+
+<section class="prose">
+  <h2>Before you call</h2>
+  <p>It helps to know roughly how big each area is (stories of the house, cars the driveway holds, feet of fence), what the walls and roof are made of, and the worst stains. For prices, read <a href="/guides/pressure-washing-cost/">what pressure washing costs</a>; Angi's October 2026 guide puts most whole-house jobs nationally between $213 and $449.</p>
+  {{ m.guide_cards() }}
+  {{ m.disclosure() }}
+</section>
+{% endblock %}

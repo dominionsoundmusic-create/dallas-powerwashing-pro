@@ -1,0 +1,85 @@
+---
+type: hub
+title: "Pressure Washing Service Areas | Dallas-Fort Worth Towns Covered"
+description: "Where the free Dallas Power Washing Pro line takes calls: Dallas, Fort Worth, Arlington, Plano, Frisco, McKinney, Allen, Denton, Irving and more across DFW."
+h1: "Pressure Washing Service Areas Across Dallas-Fort Worth"
+crumb: "Service Areas"
+keyword: "pressure washing places"
+hero:
+  image: service-areas-dfw-suburbs-aerial-hero.jpg
+  alt: "Aerial view of tree-lined Dallas-Fort Worth suburban neighborhoods with brick homes and a distant city skyline"
+  desc: "A bright, wide aerial photo over tree-lined suburban neighborhoods in the Dallas-Fort Worth area on a clear morning: rows of brick homes with gray roofs and backyard fences, curving streets, green lawns and live oaks, a few backyard pools, and a hazy downtown skyline on the far horizon in the right third of the frame. No text."
+  fallback: pw-01-hero.jpg
+  fallback_alt: "Worker pressure washing a concrete driveway between two green lawns"
+  lead: "One free number for the whole metroplex. Each town page covers what is different there, from Fort Worth's washer permit to Denton's lake and Plano's watering days."
+sources: [wiki_dallas, nctcog, fw_powerwash, denton_ws, plano_water, mckinney_hp]
+faqs:
+  - q: "Does Dallas Power Washing Pro have offices in these cities?"
+    a: "<p>No. It is a phone line and website with no offices and no crews. It connects your call with an independent, locally owned pressure washing company that serves your area. That company does the work and is paid by you.</p>"
+  - q: "My town is not listed. Can I still call?"
+    a: "<p>Yes, if you are in the Dallas-Fort Worth area. The towns with their own pages are the ones with the most searches, plus long-standing pages. The assistant asks your city when you call and tries to connect you with a company that serves it.</p>"
+  - q: "Are the rules different from town to town?"
+    a: "<p>Some are. Fort Worth requires a permit for mobile commercial power washers. Denton's storm drains run toward Lewisville Lake. Plano sets watering days. McKinney's historic district reviews exterior changes. Across the region, storm drains are not treated, so wash water should be kept out of them everywhere.</p>"
+  - q: "Do you take calls from outside DFW?"
+    a: "<p>This line is for the Dallas-Fort Worth area only. If you are elsewhere in Texas or another state, it cannot connect you with a company near you.</p>"
+---
+{% block content %}
+<section class="prose">
+  <p class="lead">Dallas Power Washing Pro takes calls from across Dallas-Fort Worth, a metro area of roughly 8.5 million people. The line has no offices anywhere. When you call, the assistant asks your city and what needs cleaning, then puts you through to an independent, locally owned company that serves that area.</p>
+  <p>Below are the towns with their own pages. Each one is written for that town: its housing, its water source and drought rules, its storm drain rules and anything else worth knowing before someone sprays a driveway. Dallas itself is covered on the <a href="/">home page</a> and the service pages.</p>
+  <h2>Towns with their own page</h2>
+  {{ m.city_cards() }}
+</section>
+
+<section class="band band--sky">
+  <div class="wide">
+    <div class="split">
+      <div>
+        <h2>What changes from one DFW town to the next</h2>
+        <ul class="checks">
+          <li><strong>Permits:</strong> Fort Worth requires a city permit for mobile commercial power washers. Most other cities regulate the water rather than the washer.</li>
+          <li><strong>Water source and drought stages:</strong> Plano, Frisco, McKinney and Allen are North Texas Municipal Water District cities; Addison buys from Dallas; Denton draws from Lewisville and Ray Roberts lakes. Each has its own staged plan.</li>
+          <li><strong>Storm drains:</strong> the regional council of governments says no local government in North Central Texas treats stormwater, so runoff goes straight to creeks and lakes everywhere.</li>
+          <li><strong>Historic districts:</strong> Fort Worth and McKinney both have districts with design rules for exterior changes.</li>
+        </ul>
+      </div>
+      {{ img('pw-hero.jpg', 'Clean concrete driveway and walk in front of a brick home with a white garage door', 1344, 768) }}
+    </div>
+  </div>
+</section>
+
+<section class="prose">
+  <h2>By county</h2>
+  <div class="grid-3">
+    <div class="panel">
+      <h3>Dallas County</h3>
+      <p>Dallas, <a href="/irving-pressure-washing/">Irving</a>, <a href="/addison-pressure-washing/">Addison</a> and part of <a href="/carrollton-pressure-washing/">Carrollton</a>.</p>
+    </div>
+    <div class="panel">
+      <h3>Tarrant County</h3>
+      <p><a href="/fort-worth-pressure-washing/">Fort Worth</a> and <a href="/arlington-pressure-washing/">Arlington</a>.</p>
+    </div>
+    <div class="panel">
+      <h3>Collin County</h3>
+      <p><a href="/plano-pressure-washing/">Plano</a>, <a href="/mckinney-pressure-washing/">McKinney</a>, <a href="/allen-pressure-washing/">Allen</a> and part of <a href="/frisco-pressure-washing/">Frisco</a>.</p>
+    </div>
+    <div class="panel">
+      <h3>Denton County</h3>
+      <p><a href="/denton-pressure-washing/">Denton</a>, <a href="/flower-mound-pressure-washing/">Flower Mound</a> and parts of Frisco and Carrollton.</p>
+    </div>
+  </div>
+  {{ m.call_box('Not sure which page fits you? Just call. The assistant asks your city and what you need, and connects you with a company that serves it.') }}
+</section>
+
+<section class="band band--navy">
+  <div class="col">
+    <h2>Looking for pressure washing places near you?</h2>
+    <p>If you searched for pressure washing places or companies near you, this line is a shortcut to one of them. It is free, it answers any hour, and it does not lock you in: the company you are put through to gives you its own quote, and you can still compare others. Ask any company for proof of insurance, a written price per surface and how it handles runoff.</p>
+  </div>
+</section>
+
+<section class="prose">
+  {{ img('pw-06-card.jpg', 'Worker pressure washing a sidewalk in front of a row of storefronts', 1200, 675, caption='Homes and businesses across the metroplex use the same free number.') }}
+  {{ m.disclosure() }}
+</section>
+{% endblock %}

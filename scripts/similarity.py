@@ -29,7 +29,8 @@ def page_type(raw):
 
 
 def content_words(raw):
-    m = re.search(r'<div class="page-content"[^>]*>(.*?)<section class="band band--navy cta"', raw, re.S)
+    m = (re.search(r'<div class="page-content"[^>]*>(.*?)<section class="band band--navy cta"', raw, re.S)
+         or re.search(r'<div class="page-content"[^>]*>(.*?)</main>', raw, re.S))
     chunk = m.group(1) if m else raw
     chunk = re.sub(r"<!--.*?-->", " ", chunk, flags=re.S)
     chunk = re.sub(r"<script.*?</script>", " ", chunk, flags=re.S)
@@ -70,7 +71,8 @@ def load(dist):
     pages = {}
     for f in sorted(dist.rglob("*.html")):
         raw = f.read_text()
-        rel = "/" + f.relative_to(dist).as_posix().replace("index.html", "")
+        rel = "/" + f.relative_to(dist).as_posix()
+        rel = rel[: -len("index.html")] if rel.endswith("index.html") else rel
         if rel in ("/404.html",):
             continue
         words = content_words(raw)

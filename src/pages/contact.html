@@ -1,0 +1,58 @@
+---
+type: contact
+title: "Contact Dallas Power Washing Pro | Call the Free Line Any Hour"
+description: "Contact Dallas Power Washing Pro by phone. The free line is answered 24/7 and connects you with an independent local pressure washing company in Dallas-Fort Worth."
+h1: "Call the Free Pressure Washing Line"
+crumb: "Contact"
+hero:
+  image: contact-dallas-phone-call-driveway-hero.jpg
+  alt: "Phone resting on the porch rail of a Dallas-area brick home overlooking a driveway and front lawn"
+  desc: "A bright, wide photo of a smartphone with a dark blank screen lying on a white wooden porch rail of a brick home in a Dallas suburb, in the right third of the frame, with a concrete driveway, green lawn and a live oak softly out of focus beyond it, morning sun. No people, no text on the screen."
+  fallback: pw-01-hero.jpg
+  fallback_alt: "Worker pressure washing a concrete driveway between two green lawns"
+  lead: "This site is phone only. Call any hour, day or night, and the automated assistant puts you through to an independent local pressure washing company."
+  secondary_href: "/how-it-works/"
+  secondary_label: "How It Works"
+faqs:
+  - q: "Why is there no contact form?"
+    a: "<p>A form waits in an inbox. A call is answered right away, day or night, and put through to a company that can act on it. If the company cannot pick up, your details are passed along for a call back.</p>"
+  - q: "Is there an email address?"
+    a: "<p>No public email address is listed. The phone line is the way to reach a pressure washing company through this site.</p>"
+  - q: "What should I have ready when I call?"
+    a: "<p>What needs cleaning, roughly how big it is (stories, cars the drive holds, feet of fence), your city in Dallas-Fort Worth, and a callback number. Photos can help later, when the company asks for them.</p>"
+cta_title: "Ready? Call now"
+---
+{% block content %}
+<section class="prose">
+  <div class="split">
+    <div>
+      <h2>Phone</h2>
+      <p class="lead"><a class="site-footer__phone contact-phone" href="tel:{{ site.business.phone_tel }}">{{ site.business.phone_display }}</a></p>
+      <p>{{ site.business.hours_text }} {{ site.business.other_lines }}</p>
+      <p><a class="btn btn--amber btn--big" href="tel:{{ site.business.phone_tel }}">{{ site.cta.primary_label }}</a></p>
+      <h3>What happens</h3>
+      <ol class="steps">
+        <li><strong>The assistant answers</strong>And asks what you need. Say pressure washing.</li>
+        <li><strong>You describe the job</strong>What needs cleaning, how big, and your city.</li>
+        <li><strong>You are put through</strong>To an independent local company, which hears a short summary first.</li>
+        <li><strong>The company takes it from there</strong>It quotes, books, does the work and is paid by you.</li>
+      </ol>
+    </div>
+    {{ img('pw-05-card.jpg', 'Man soft washing the brick and siding of a two-story house', 620, 620) }}
+  </div>
+</section>
+
+<section class="band band--sky">
+  <div class="wide">
+    <h2>Where the line takes calls</h2>
+    <p>Dallas and the Dallas-Fort Worth area. There is no office to visit; the line is a phone service and the company you are connected with comes to you.</p>
+    {{ m.city_pills() }}
+  </div>
+</section>
+
+<section class="prose">
+  {{ img('pw-hero.jpg', 'Clean concrete driveway and walk in front of a brick home with a white garage door', 1344, 768, caption='Have a rough idea of the size of each area when you call.') }}
+  {{ m.disclosure() }}
+  <p>Facebook: <a href="{{ site.social.facebook }}" target="_blank" rel="noopener">Dallas Power Washing Pro on Facebook<span class="sr"> (opens in a new tab)</span></a></p>
+</section>
+{% endblock %}
