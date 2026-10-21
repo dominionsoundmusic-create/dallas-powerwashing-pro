@@ -7,7 +7,7 @@ src/static/images/, run `python3 build.py`, and it replaces the stand-in automat
 
 Heroes (1920x1080) are listed first because they show on screen straight away.
 
-Total: 2 images.
+Total: 13 images.
 
 ## 1. home-hero-dallas-brick-home-driveway.jpg
 
@@ -18,7 +18,97 @@ Total: 2 images.
 
 Artistly prompt: A bright, wide, eye-level photo of a two-story red and tan brick home in a North Texas suburb on a clear spring morning, with a long freshly cleaned light gray concrete driveway leading to a two-car garage, a clean front walk, a trimmed green lawn, a young live oak at the curb and a deep blue sky with a few white clouds. No people, no vehicles with readable plates. Style: bright, clearly visible, Dallas-Fort Worth homes, driveways and storefronts, natural daylight, no text, no logos, no watermarks, no recognizable faces, wide cinematic landscape shot, subject positioned on right third of frame, well lit.
 
-## 2. residential-pressure-washing-dallas-patio-hero.jpg
+## 2. deck-cleaning-dallas-backyard-hero.jpg
+
+- **File name:** deck-cleaning-dallas-backyard-hero.jpg
+- **Size:** 1920x1080 px
+- Page(s): /deck-cleaning/
+- Alt text: Freshly cleaned wood deck and covered patio behind a brick home in a Dallas suburb
+
+Artistly prompt: A bright, wide photo of a raised wood deck attached to the back of a brick home in a North Texas suburb, late afternoon. The deck boards are freshly cleaned, warm and even in color, with outdoor chairs and a table, a pergola casting soft shade, a cedar fence and green lawn beyond, blue sky. No people. Style: bright, clearly visible, Dallas-Fort Worth homes, driveways and storefronts, natural daylight, no text, no logos, no watermarks, no recognizable faces, wide cinematic landscape shot, subject positioned on right third of frame, well lit.
+
+## 3. driveway-cleaning-dallas-concrete-hero.jpg
+
+- **File name:** driveway-cleaning-dallas-concrete-hero.jpg
+- **Size:** 1920x1080 px
+- Page(s): /driveway-cleaning/
+- Alt text: Long concrete driveway in a Dallas neighborhood, the lower half freshly cleaned and the upper half still stained
+
+Artistly prompt: A bright, wide, low-angle photo of a long two-car concrete driveway in a North Texas neighborhood on a sunny morning. A crisp line crosses the slab: the lower half freshly cleaned to an even light gray, the upper half darker with tire marks and an oil spot near the garage. A brick one-story home with a white garage door, green St. Augustine lawn on both sides, a curb and storm drain inlet visible at the street edge. No people, no cars. Style: bright, clearly visible, Dallas-Fort Worth homes, driveways and storefronts, natural daylight, no text, no logos, no watermarks, no recognizable faces, wide cinematic landscape shot, subject positioned on right third of frame, well lit.
+
+## 4. wood-fence-cleaning-dallas-hero.jpg
+
+- **File name:** wood-fence-cleaning-dallas-hero.jpg
+- **Size:** 1920x1080 px
+- Page(s): /fence-cleaning/
+- Alt text: Long cedar privacy fence in a Dallas backyard, the near section freshly cleaned to warm wood tones and the far section still gray
+
+Artistly prompt: A bright, wide photo along a long six-foot wood privacy fence in a North Texas backyard on a sunny afternoon. The near third of the fence is freshly cleaned, showing warm honey-colored wood grain; the rest fades to weathered silver gray with dark mildew near the ground. Green lawn, a garden bed along the base, blue sky above. No people. Style: bright, clearly visible, Dallas-Fort Worth homes, driveways and storefronts, natural daylight, no text, no logos, no watermarks, no recognizable faces, wide cinematic landscape shot, subject positioned on right third of frame, well lit.
+
+## 5. commercial-pressure-washing-cost-dallas-lot-hero.jpg
+
+- **File name:** commercial-pressure-washing-cost-dallas-lot-hero.jpg
+- **Size:** 1920x1080 px
+- Page(s): /guides/commercial-pressure-washing-cost/
+- Alt text: Empty shopping center parking lot in Dallas-Fort Worth at dawn with one section of concrete freshly cleaned
+
+Artistly prompt: A bright, wide photo of a shopping center parking lot in a DFW suburb at dawn, no cars, lamps still glowing. A broad clean stripe crosses the gray concrete where it has just been washed, with an unbranded trailer-mounted washing rig and a coiled hose near the curb and a covered storm drain inlet in the foreground. Clear sky turning blue, storefronts out of focus, no readable signs. Style: bright, clearly visible, Dallas-Fort Worth homes, driveways and storefronts, natural daylight, no text, no logos, no watermarks, no recognizable faces, wide cinematic landscape shot, subject positioned on right third of frame, well lit.
+
+## 6. how-often-wash-house-dallas-pollen-hero.jpg
+
+- **File name:** how-often-wash-house-dallas-pollen-hero.jpg
+- **Size:** 1920x1080 px
+- Page(s): /guides/how-often-pressure-wash-house/
+- Alt text: Brick home in a Dallas suburb in spring with a fine yellow film of oak pollen on the porch, windowsills and front walk
+
+Artistly prompt: A bright, wide photo of the front porch and walk of a one-story brick home in North Texas in early spring. A fine yellow-green film of tree pollen dusts the porch floor, the white window sills and the concrete walk, with a live oak branch at the top of the frame and soft morning sunlight. Green lawn, blue sky. No people. Style: bright, clearly visible, Dallas-Fort Worth homes, driveways and storefronts, natural daylight, no text, no logos, no watermarks, no recognizable faces, wide cinematic landscape shot, subject positioned on right third of frame, well lit.
+
+## 7. power-vs-pressure-washing-dallas-hero.jpg
+
+- **File name:** power-vs-pressure-washing-dallas-hero.jpg
+- **Size:** 1920x1080 px
+- Page(s): /guides/power-washing-vs-pressure-washing/
+- Alt text: Hot water power washing lifting steam off a stained concrete drive-thru lane beside a Dallas business
+
+Artistly prompt: A bright, wide photo of a concrete drive-thru lane beside a small commercial building in a Dallas suburb, early morning. A worker seen from behind at a distance, face not visible, sprays the concrete with a hot water wand; light steam rises from the surface and a clean band shows behind the spray. Unbranded equipment trailer at the edge of the frame, clear sky, no readable signs. Style: bright, clearly visible, Dallas-Fort Worth homes, driveways and storefronts, natural daylight, no text, no logos, no watermarks, no recognizable faces, wide cinematic landscape shot, subject positioned on right third of frame, well lit.
+
+## 8. pressure-washing-cost-dallas-hero.jpg
+
+- **File name:** pressure-washing-cost-dallas-hero.jpg
+- **Size:** 1920x1080 px
+- Page(s): /guides/pressure-washing-cost/
+- Alt text: Homeowner and a pressure washing contractor looking over a brick house and driveway in a Dallas suburb before a quote
+
+Artistly prompt: A bright, wide photo of the front yard of a two-story brick home in a Dallas suburb on a sunny morning. Two people seen from behind at a distance, faces not visible, stand at the end of a long concrete driveway looking toward the house; one holds a clipboard. A work truck with a pressure washer rig is parked at the curb, unbranded. Green lawn, live oak, blue sky. Style: bright, clearly visible, Dallas-Fort Worth homes, driveways and storefronts, natural daylight, no text, no logos, no watermarks, no recognizable faces, wide cinematic landscape shot, subject positioned on right third of frame, well lit.
+
+## 9. texas-pressure-washing-rules-storm-drain-hero.jpg
+
+- **File name:** texas-pressure-washing-rules-storm-drain-hero.jpg
+- **Size:** 1920x1080 px
+- Page(s): /guides/pressure-washing-license-texas/
+- Alt text: Curb storm drain inlet on a Dallas-area street covered with a black rubber mat while a driveway is washed beside it
+
+Artistly prompt: A bright, wide, low-angle photo of a residential street curb in a North Texas suburb on a sunny day. A concrete curb storm drain inlet in the foreground is covered with a heavy black rubber drain mat, held down by a small sandbag. Behind it, a freshly washed light concrete driveway and the lower part of a brick home are softly out of focus. No people, no text. Style: bright, clearly visible, Dallas-Fort Worth homes, driveways and storefronts, natural daylight, no text, no logos, no watermarks, no recognizable faces, wide cinematic landscape shot, subject positioned on right third of frame, well lit.
+
+## 10. house-soft-wash-dallas-brick-two-story-hero.jpg
+
+- **File name:** house-soft-wash-dallas-brick-two-story-hero.jpg
+- **Size:** 1920x1080 px
+- Page(s): /house-washing/
+- Alt text: Two-story brick and stone home in a Dallas suburb being soft washed with a low-pressure spray from the lawn
+
+Artistly prompt: A bright, wide photo of a two-story North Texas home with a red brick lower story, tan stone accents and light fiber cement siding on the upper gable, on a sunny morning. A worker seen from behind at a distance, face not visible, stands on the green lawn holding a long wand that sends a soft, wide mist onto the upper siding. Part of the wall is visibly cleaner than the rest. Trimmed shrubs, blue sky. Style: bright, clearly visible, Dallas-Fort Worth homes, driveways and storefronts, natural daylight, no text, no logos, no watermarks, no recognizable faces, wide cinematic landscape shot, subject positioned on right third of frame, well lit.
+
+## 11. commercial-power-washing-dallas-storefront-hero.jpg
+
+- **File name:** commercial-power-washing-dallas-storefront-hero.jpg
+- **Size:** 1920x1080 px
+- Page(s): /power-washing/
+- Alt text: Worker power washing the sidewalk in front of a row of storefronts in a Dallas shopping center early in the morning
+
+Artistly prompt: A bright, wide photo of a strip shopping center in a Dallas suburb at sunrise, shops closed, with one worker seen from behind at a distance, face not visible, power washing the wide concrete walkway under the storefront canopy. A visible clean path behind him, a parked work trailer at the curb, a storm drain inlet covered with a black mat in the foreground. Warm morning light, clear sky, no readable signs or logos. Style: bright, clearly visible, Dallas-Fort Worth homes, driveways and storefronts, natural daylight, no text, no logos, no watermarks, no recognizable faces, wide cinematic landscape shot, subject positioned on right third of frame, well lit.
+
+## 12. residential-pressure-washing-dallas-patio-hero.jpg
 
 - **File name:** residential-pressure-washing-dallas-patio-hero.jpg
 - **Size:** 1920x1080 px
@@ -26,3 +116,12 @@ Artistly prompt: A bright, wide, eye-level photo of a two-story red and tan bric
 - Alt text: Concrete back patio and pool deck behind a brick home in a Dallas suburb, half cleaned and half still gray
 
 Artistly prompt: A bright, wide photo of a large concrete back patio and pool deck behind a one-story brick home in a Dallas suburb, mid-afternoon. A clean line runs across the concrete: the near half is freshly washed and light, the far half still gray with dirt and pollen. A rotary surface cleaner and a coiled hose rest on the clean side, patio chairs pushed to the edge, a cedar privacy fence and green lawn behind. No people. Style: bright, clearly visible, Dallas-Fort Worth homes, driveways and storefronts, natural daylight, no text, no logos, no watermarks, no recognizable faces, wide cinematic landscape shot, subject positioned on right third of frame, well lit.
+
+## 13. roof-soft-wash-dallas-shingle-streaks-hero.jpg
+
+- **File name:** roof-soft-wash-dallas-shingle-streaks-hero.jpg
+- **Size:** 1920x1080 px
+- Page(s): /roof-soft-wash/
+- Alt text: Gray asphalt shingle roof on a Dallas-area home with dark algae streaks on one side and clean shingles on the other
+
+Artistly prompt: A bright, wide photo of the front slope of a gray architectural asphalt shingle roof on a brick home in a North Texas suburb, seen from the street on a clear day. The left half of the slope has long dark black-brown streaks running down from the ridge, the right half is evenly clean gray. Green lawn and a young tree in the foreground, blue sky. No people on the roof, no ladders. Style: bright, clearly visible, Dallas-Fort Worth homes, driveways and storefronts, natural daylight, no text, no logos, no watermarks, no recognizable faces, wide cinematic landscape shot, subject positioned on right third of frame, well lit.
