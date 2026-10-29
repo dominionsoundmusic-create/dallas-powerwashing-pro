@@ -19,6 +19,10 @@ const BRANDS = {
   "austinacservice.com": "Austin AC Service",
   "houstonpowerwashingpro.com": "Houston Power Washing Pro",
   "dallaspowerwashingpro.com": "Dallas Metro Power Washing Pro",
+  "phoenixpoolcleaningpro.com": "Phoenix Pool Cleaning Pro",
+  "tucsonpoolcleaningpro.com": "Tucson Pool Cleaning Pro",
+  "yumapoolcleaningpro.com": "Yuma Pool Cleaning Pro",
+  "dominionpoolpros.com": "Dominion Pool Pros",
 };
 
 const FORM_LABELS = {
@@ -49,7 +53,7 @@ const toE164 = (raw) => {
 export function buildLead(payload) {
   const data = payload.data || {};
   const formName = payload.form_name || data["form-name"] || "form";
-  const label = FORM_LABELS[formName] || (/contact/.test(formName) ? "Quote request" : formName);
+  const label = FORM_LABELS[formName] || (/contact|inquiry|quote/.test(formName) ? "Quote request" : formName);
 
   let host = "";
   try { host = new URL(payload.site_url || data.referrer || "").hostname.replace(/^www\./, ""); } catch {}
@@ -60,7 +64,7 @@ export function buildLead(payload) {
   const phone = toE164(pick(data, ["phone", "Your phone", "Lead text phone", "Public phone"]));
   const email = pick(data, ["email", "Your email", "Lead email"]);
 
-  const need = pick(data, ["need", "situation"]);
+  const need = pick(data, ["need", "service", "situation"]);
   const where = pick(data, ["city", "location", "zip"]);
   let note = pick(data, ["message", "Anything else", "Your story"]);
   if (formName === "site-check") {
@@ -81,7 +85,7 @@ export function buildLead(payload) {
     brand,
     form: label,
     site: host,
-    summary: `${label} from ${brand}`,
+    summary: `${label} from ${brand}` + (need ? `. Needs: ${need}` : ""),
     name: name || "(no name given)",
     first_name: first || "",
     last_name: rest.join(" "),
