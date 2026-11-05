@@ -18,7 +18,7 @@ const BRANDS = {
   "dallasairandheating.com": "Dallas Air & Heating",
   "austinacservice.com": "Austin AC Service",
   "houstonpowerwashingpro.com": "Houston Power Washing Pro",
-  "dallaspowerwashingpro.com": "Dallas Metro Power Washing Pro",
+  "dallaspowerwashingpro.com": "Dallas Power Washing Pro",
   "phoenixpoolcleaningpro.com": "Phoenix Pool Cleaning Pro",
   "tucsonpoolcleaningpro.com": "Tucson Pool Cleaning Pro",
   "yumapoolcleaningpro.com": "Yuma Pool Cleaning Pro",

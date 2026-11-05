@@ -1,0 +1,102 @@
+{
+ "business": {
+  "name": "Dallas Power Washing Pro",
+  "legal_name": "Dominion Digital Group",
+  "dba_note": "Dallas Power Washing Pro is a d/b/a of Dominion Digital Group.",
+  "category": "Power washing referral line for Dallas-Fort Worth",
+  "origin": "https://dallaspowerwashingpro.com",
+  "phone_display": "(469) 649-7066",
+  "phone_tel": "+14696497066",
+  "email": "",
+  "address_public": false,
+  "hours": "The phone line is answered 24 hours a day, 7 days a week by an automated assistant.",
+  "logo": "/images/logo.svg",
+  "logo_width": 290,
+  "logo_height": 64,
+  "theme_color": "#12508a",
+  "description": "A free phone line for power washing and pressure washing in Dallas-Fort Worth. An automated assistant answers 24/7 and transfers callers to an independent local power washing company.",
+  "short_disclosure": "Dallas Power Washing Pro is a free phone line, not a power washing company. It answers your call and connects you with an independent local power washing company, which inspects, quotes and does the work, and which you pay directly.",
+  "referral_disclosure": "Companies may pay a referral fee.",
+  "quote_text": "I believe the unbelievable, I receive the impossible, because it's doable.",
+  "quote_author": "Jesse Duplantis",
+  "scripture": "John 3:16",
+  "copyright": "© 2026 Dominion Digital Group. All rights reserved.",
+  "credit_text": "Designed by Dominion Web Design Pro",
+  "credit_url": "https://dominionwebdesignpro.com",
+  "license_lookup_url": "https://comptroller.texas.gov/taxes/franchise/account-status/search"
+ },
+ "cta": {
+  "primary_label": "Call {phone}",
+  "secondary_label": "How the free line works",
+  "secondary_href": "/how-it-works/"
+ },
+ "analytics": {
+  "ga4": "G-37W4N8XFL8",
+  "gtm": ""
+ },
+ "social": {
+  "facebook": "https://www.facebook.com/dallaspowerwashingpro",
+  "instagram": "",
+  "google_business": "",
+  "tiktok": "",
+  "youtube": ""
+ },
+ "nav": [
+  {"label": "Services", "menu": "services", "href": "/services/"},
+  {"label": "Guides", "menu": "guides"},
+  {"label": "Service Areas", "menu": "areas", "href": "/service-areas/"},
+  {"label": "How It Works", "href": "/how-it-works/"},
+  {"label": "About", "href": "/about/"},
+  {"label": "FAQ", "href": "/faq/"},
+  {"label": "Contact", "href": "/contact/"}
+ ],
+ "footer_links": [
+  {"label": "All Services", "href": "/services/"},
+  {"label": "How It Works", "href": "/how-it-works/"},
+  {"label": "About", "href": "/about/"},
+  {"label": "FAQ", "href": "/faq/"},
+  {"label": "Contact", "href": "/contact/"},
+  {"label": "Privacy Policy", "href": "/privacy-policy.html"},
+  {"label": "Terms of Use", "href": "/terms.html"}
+ ],
+ "services": [
+  {"slug": "pressure-washing", "url": "/pressure-washing/", "name": "House Washing and Residential Pressure Washing", "short": "House Washing",
+   "summary": "Brick, siding and painted trim each need a different pressure. What a careful house wash in Dallas looks like, and what to ask first.",
+   "card_image": "pw-05-card.jpg", "card_alt": "A worker in a cap and dark uniform rinsing the front of a brick and siding house with a long wand"},
+  {"slug": "power-washing", "url": "/power-washing/", "name": "Commercial Power Washing", "short": "Commercial Power Washing",
+   "summary": "Storefronts, sidewalks, parking lots and dumpster pads, where the wash water rules bite hardest. What a business should ask for.",
+   "card_image": "pw-06-card.jpg", "card_alt": "A worker pressure washing the sidewalk in front of a row of storefronts"},
+  {"slug": "driveway-cleaning", "url": "/driveway-cleaning/", "name": "Driveway and Concrete Cleaning", "short": "Driveway Cleaning",
+   "summary": "Oil, tire marks, algae and shifted slabs: what cleaning concrete on North Texas clay involves and what it can not fix.",
+   "card_image": "pw-01-card.jpg", "card_alt": "A pressure washer spray fanning across a cracked concrete driveway in front of a brick home"},
+  {"slug": "roof-soft-wash", "url": "/roof-soft-wash/", "name": "Roof Cleaning and Soft Washing", "short": "Roof Soft Wash",
+   "summary": "Black streaks are usually algae. Why shingle makers warn against high pressure, and how a low-pressure soft wash differs.",
+   "card_image": "pw-03-card.jpg", "card_alt": "A tile roof, half dark with buildup and half clean and red"},
+  {"slug": "fence-cleaning", "url": "/fence-cleaning/", "name": "Fence Cleaning", "short": "Fence Cleaning",
+   "summary": "Gray wood, green mildew and rotted pickets. What washing can bring back and what needs a repair instead.",
+   "card_image": "pw-02-card.jpg", "card_alt": "A spray wand cleaning a weathered wood fence, with one section gray and one section clean"},
+  {"slug": "deck-cleaning", "url": "/deck-cleaning/", "name": "Deck Cleaning", "short": "Deck Cleaning",
+   "summary": "Soft wood marks easily and composite has its own limits. How to protect a deck, and when to stain after washing.",
+   "card_image": "pw-04-card.jpg", "card_alt": "A wet wood deck with weathered boards, patio furniture and low sun"}
+ ],
+ "guides": [
+  {"slug": "cost", "url": "/pressure-washing-cost-dallas/", "name": "How Much Does Pressure Washing Cost in Dallas?", "short": "Pressure Washing Cost",
+   "summary": "Published price ranges per square foot and by job, what moves a quote up or down, and how to compare two quotes fairly."},
+  {"slug": "how-often", "url": "/how-often-to-pressure-wash-a-house/", "name": "How Often Should You Pressure Wash a House?", "short": "How Often to Wash",
+   "summary": "Once a year is the common advice. How pollen, shade, heat and water rules change that for a North Texas home."}
+ ],
+ "areas": [
+  {"slug": "fort-worth", "name": "Fort Worth", "city": "Fort Worth", "place_type": "City", "url": "/fort-worth-pressure-washing/"},
+  {"slug": "frisco", "name": "Frisco", "city": "Frisco", "place_type": "City", "url": "/frisco-pressure-washing/"},
+  {"slug": "denton", "name": "Denton", "city": "Denton", "place_type": "City", "url": "/denton-pressure-washing/"},
+  {"slug": "carrollton", "name": "Carrollton", "city": "Carrollton", "place_type": "City", "url": "/carrollton-pressure-washing/"},
+  {"slug": "plano", "name": "Plano", "city": "Plano", "place_type": "City", "url": "/plano-pressure-washing/"},
+  {"slug": "arlington", "name": "Arlington", "city": "Arlington", "place_type": "City", "url": "/arlington-pressure-washing/"},
+  {"slug": "mckinney", "name": "McKinney", "city": "McKinney", "place_type": "City", "url": "/mckinney-pressure-washing/"},
+  {"slug": "flower-mound", "name": "Flower Mound", "city": "Flower Mound", "place_type": "City", "url": "/flower-mound-pressure-washing/"},
+  {"slug": "addison", "name": "Addison", "city": "Addison", "place_type": "City", "url": "/addison-pressure-washing/"},
+  {"slug": "southlake", "name": "Southlake", "city": "Southlake", "place_type": "City", "url": "/southlake-pressure-washing/"},
+  {"slug": "keller", "name": "Keller", "city": "Keller", "place_type": "City", "url": "/keller-pressure-washing/"},
+  {"slug": "grapevine", "name": "Grapevine", "city": "Grapevine", "place_type": "City", "url": "/grapevine-pressure-washing/"}
+ ]
+}

@@ -1,0 +1,16 @@
+# Static site: the built pages are committed in dist/. No build command runs on Netlify.
+# Netlify serves dist/404.html for any path that does not exist, with a 404 status.
+[build]
+  publish = "dist"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    X-Frame-Options = "SAMEORIGIN"
+
+[[headers]]
+  for = "/images/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"

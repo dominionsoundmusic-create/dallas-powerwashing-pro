@@ -1,0 +1,54 @@
+{% set b = site.business %}
+<div class="quote-bar" role="note">
+  <span class="quote-bar__verse">{{ b.scripture }}</span>
+  <p><q>{{ b.quote_text }}</q> <span class="quote-bar__by">{{ b.quote_author }}</span></p>
+  {% set top_socials = [('facebook','Facebook'),('instagram','Instagram'),('tiktok','TikTok'),('youtube','YouTube')] %}
+  {% set top_active = [] %}{% for key, label in top_socials %}{% if site.social[key] %}{% set _ = top_active.append((key, label)) %}{% endif %}{% endfor %}
+  {% if top_active %}<span class="quote-bar__social">{% for key, label in top_active %}<a href="{{ site.social[key] }}" target="_blank" rel="noopener" aria-label="{{ b.name }} on {{ label }} (opens in a new tab)">{% include "partials/icons/" ~ key ~ ".svg" %}</a>{% endfor %}</span>{% endif %}
+</div>
+<header class="site-header">
+  <div class="site-header__inner">
+    <a class="logo" href="/" aria-label="{{ b.name }} home">
+      <img src="{{ b.logo }}" alt="{{ b.name }}" width="{{ b.logo_width }}" height="{{ b.logo_height }}">
+    </a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+      <span class="nav-toggle__bars" aria-hidden="true"></span>
+      <span class="nav-toggle__label">Menu</span>
+    </button>
+    <nav class="site-nav" id="site-nav" aria-label="Main">
+      <ul class="site-nav__list">
+      {% for item in site.nav %}
+        {% if item.menu is defined %}
+        {% set items = site[item.menu] %}
+        {% set urls = items | map(attribute='url') | list %}
+        {% set here = page.url in urls or (item.href and page.url == item.href) %}
+        <li class="has-sub">
+          {% if item.href %}
+          <a class="site-nav__link{% if here %} is-current{% endif %}" href="{{ item.href }}">{{ item.label }}</a>
+          <button class="sub-toggle" type="button" aria-expanded="false" aria-controls="sub-{{ item.menu }}"><span class="sr">Show {{ item.label }} menu</span></button>
+          {% else %}
+          <button class="site-nav__link sub-toggle sub-toggle--text{% if here %} is-current{% endif %}" type="button" aria-expanded="false" aria-controls="sub-{{ item.menu }}">{{ item.label }}</button>
+          {% endif %}
+          <ul class="sub" id="sub-{{ item.menu }}">
+            {% if item.menu == 'areas' %}<li><a href="/service-areas/">All service areas</a></li>{% endif %}
+            {% for s in items %}
+            <li><a href="{{ s.url }}"{% if page.url == s.url %} aria-current="page"{% endif %}>{{ s.short | default(s.name) }}</a></li>
+            {% endfor %}
+          </ul>
+        </li>
+        {% else %}
+        <li><a class="site-nav__link" href="{{ item.href }}"{% if page.url == item.href %} aria-current="page"{% endif %}>{{ item.label }}</a></li>
+        {% endif %}
+      {% endfor %}
+      </ul>
+    </nav>
+    <div class="header-actions">
+      <div class="lang" role="group" aria-label="Language">
+        <button type="button" class="lang__btn" data-lang="en" aria-pressed="true">EN</button>
+        <button type="button" class="lang__btn" data-lang="es" aria-pressed="false" lang="es">ES</button>
+      </div>
+      <a class="btn btn--orange btn--sm header-call" href="tel:{{ b.phone_tel }}"><span class="header-call__long">{{ b.phone_display }}</span><span class="header-call__short">Call</span></a>
+    </div>
+  </div>
+</header>
+<div id="google_translate_element" hidden></div>

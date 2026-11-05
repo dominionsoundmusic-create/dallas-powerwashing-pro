@@ -1,0 +1,16 @@
+{% set b = site.business %}
+<section class="band band--navy cta" aria-labelledby="cta-title">
+  <div class="wide cta__grid">
+    <div class="cta__text">
+      <h2 id="cta-title">{{ page.cta_title | default('Talk to a local power washing company') }}</h2>
+      <p>{{ page.cta_text | default('Call at any hour, say what needs washing and which city it is in, and your call is transferred to an independent local power washing company with a short spoken summary. That company looks at the job, sets its own price and does the work.') }}</p>
+      <p><a class="btn btn--orange btn--big" href="tel:{{ b.phone_tel }}">{{ site.cta.primary_label }}</a></p>
+    </div>
+    <ul class="cta__facts">
+      <li><strong>Day or night</strong>An automated assistant answers every call, 24 hours a day, 7 days a week.</li>
+      <li><strong>No charge to you</strong>The line never bills callers. Any price comes from the company that does the work.</li>
+      <li><strong>Check them yourself</strong>Ask for a certificate of insurance and how wash water will be handled before you agree.</li>
+      <li><strong>If no one picks up</strong>A message is taken so the company can call you back.</li>
+    </ul>
+  </div>
+</section>
