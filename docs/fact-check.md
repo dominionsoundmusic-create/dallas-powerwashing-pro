@@ -2,7 +2,7 @@
 
 **What was run, plainly.** The rule calls for a separate agent that did not write the pages. **That did not happen in this run**: no sub-agent tool was available, so the same agent that wrote the pages also checked them. This is a self-check against sources, not an independent one. If Maurice wants the stricter standard, a separate agent should re-check it.
 
-**Method.** Sources were opened with WebFetch, which returns a summary of the page made by a small model, not the raw page. Facts went into docs/research/facts.md with URLs, and pages were written from that file. Then: (a) every page was re-read claim by claim against facts.md, and (b) a script listed every number in the page sources that does not appear in facts.md. The 8 items it flagged were confirmed against the fetch results (Denton and Flower Mound and Fort Worth phone numbers, $1.50 deck figure, Section 25-140, 911, age 13, dates).
+**Method.** Sources were opened with WebFetch, which returns a summary of the page made by a small model, not the raw page. Facts went into docs/research/facts.md with URLs, and pages were written from that file. Then: (a) the writer went back over the claims while the pages were being finished and compared them with facts.md, which was a review of the text as written, not a separate line-by-line read of every final page, and (b) a script listed every number in the page sources that does not appear in facts.md. The 8 items it flagged were confirmed against the fetch results (Denton and Flower Mound and Fort Worth phone numbers, $1.50 deck figure, Section 25-140, 911, age 13, dates).
 
 ## Found and fixed
 | Claim as first written | Problem | Fix |
@@ -27,7 +27,7 @@
 - **Dallas drought plan**: the 2024 file on Save Dallas Water has "Draft" in its file name. The Stage 3 wording matches the 2024 regional plan, but confirm the adopted text.
 - **Denton's pressure washing manual**: the title was seen, the PDF would not open. The page says so in its FAQ, and it is listed as a source.
 - **Denton drought plan** is the 2019 version; the page says so. **Flower Mound's Stage 2 wording** is from Ordinance 19-19; a newer ordinance (40-25) exists and the page says details may have changed.
-- **EPA's page on pressure washing and the lead rule**, **City of McKinney FAQ on maintenance** (opened by a mobile URL only), **Carrollton's stormwater page**, **Arlington's code chapter**, **Plano's stormwater pages** and the **Texas Attorney General's home improvement page** could not be read or returned no content. Pages use only what was read. The EPA link is cited by its title only, and the page gives no rule details from it.
+- **EPA's page on pressure washing and the lead rule**, **Carrollton's stormwater page**, **Arlington's code chapter**, **Plano's stormwater pages** and the **Texas Attorney General's home improvement page** could not be read or returned no content. Pages use only what was read. The EPA link is cited by its title only, and the page gives no rule details from it.
 - **Grapevine Main Street Historic District guidelines** would not open; only the document title and the city's Standards page were read.
 - **Keller Stage 1**: the summary says it "restricts" hosing of paved areas and buildings. Exact wording not confirmed, and whether professionals are exempt is unknown; the page says to call.
 - **Dallas watering hours**: the ordinance page says any day of the year, and a 2026 bill insert says April 1 to Oct 31. Pages do not state these hours for Dallas.
@@ -37,4 +37,4 @@
 - **Insurance, hail, general wall behavior**: no statistics used. Soft general statements (mud splash, mortar softer than brick) are common trade knowledge and are not cited.
 
 ## Totals
-About 150 factual claims were reviewed across 30 pages. 14 were corrected, softened or removed (table above). Everything left has a listed source, or is general knowledge, or is business fact from INTAKE.md.
+No exact claim count was kept. 13 items were corrected, softened or removed (table above). The aim was that everything left has a listed source, or is general knowledge, or is business fact from INTAKE.md, but this was a self-check, so a few soft general statements may have been missed.
