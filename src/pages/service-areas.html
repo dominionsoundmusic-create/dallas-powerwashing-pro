@@ -1,0 +1,71 @@
+---
+type: page
+title: "Pressure Washing DFW: Cities the Free Dallas-Fort Worth Line Covers"
+description: "Pressure washing across DFW: the Dallas-Fort Worth cities the free line covers, each city's water supply, and where to read local wash water rules."
+h1: "Pressure Washing Across DFW"
+crumb: "Service Areas"
+keyword: "pressure washing dfw"
+hero:
+  image: pw-01-hero.jpg
+  alt: "A person pressure washing a concrete driveway in front of a brick home"
+  lead: "One free number for the Dallas-Fort Worth metroplex. The line takes calls here and nowhere else, and each city has its own water and wash rules."
+cta_title: "Call from anywhere in Dallas-Fort Worth"
+faqs:
+  - q: "Do you cover Allen and Irving?"
+    a: "<p>Yes, the line takes calls from Allen and Irving. They do not have their own pages, but the notes below apply. Old city pages for both now point here.</p>"
+  - q: "My city is not listed. Can I still call?"
+    a: "<p>If you are in the Dallas-Fort Worth metroplex, call and say where you are. The assistant will try to connect you. The line can not promise a company works every street, so say your city at the start.</p>"
+  - q: "Is the line available outside North Texas?"
+    a: "<p>No. It covers Dallas-Fort Worth only. It does not serve Dallas in any other state.</p>"
+  - q: "Does the rule change from city to city?"
+    a: "<p>Yes. Water supplies, drought plans and storm drain ordinances differ. City pages cover what this site could confirm, and your city's utility is the final word.</p>"
+---
+{% block content %}
+<section class="prose">
+  <h2>Cities with their own pressure washing page</h2>
+  <p class="lead">Each page below explains what is different about washing in that city, from permits in Fort Worth to the lake in Grapevine.</p>
+  {{ m.area_pills() }}
+  <div class="split">
+    <div>
+      <h2>Dallas</h2>
+      <p>Dallas is the center of the line's coverage. City code gives a defense for plain wash water but prohibits mobile power washing and pavement washdown with a harmful quantity of cleaner. The <a href="/">home page</a> covers Dallas in detail, and the two-day watering schedule and fines are on Save Dallas Water.</p>
+    </div>
+    {{ img('pw-hero.jpg', 'A clean concrete driveway leading to a brick home', 1344, 768) }}
+  </div>
+</section>
+
+<section class="band band--tint">
+  <div class="wide">
+    <h2>Other cities the line takes calls from</h2>
+    <p class="section-intro">These cities have too little search data for a page of their own, but the line takes calls from all of them.</p>
+    <div class="grid-3">
+      <div class="panel"><h3>Allen and Rockwall</h3><p>Both are North Texas Municipal Water District members, so the district's Stage 3 limit on hosing paved areas and buildings is the plan to know.</p></div>
+      <div class="panel"><h3>Garland, Richardson and Mesquite</h3><p>These are district member cities too. Older homes are worth a lead paint question if they were built before 1978.</p></div>
+      <div class="panel"><h3>Wylie</h3><p>Also a district member. As elsewhere on the prairie, clay soil makes driveway cracks a common topic.</p></div>
+      <div class="panel"><h3>Irving and Coppell</h3><p>A mix of offices, apartments and homes. Ask your city what stage applies, and read the commercial page if you manage a property.</p></div>
+      <div class="panel"><h3>Lewisville and The Colony</h3><p>Runoff here is close to Lewisville Lake, which Denton calls a primary drinking water source for much of the metroplex.</p></div>
+      <div class="panel"><h3>Grand Prairie, Mansfield and Rowlett</h3><p>Say which side of town you are on and what surface you need washed, so the summary is clear.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="prose">
+  <div class="split">
+    <div>
+      <h2>Which water plan applies to you?</h2>
+      <p>Your city's supplier often decides which drought rules matter. A few examples from city and district pages:</p>
+      <ul>
+        <li><strong>North Texas Municipal Water District members:</strong> Allen, Frisco, Garland, McKinney, Mesquite, Plano, Richardson, Rockwall and Wylie, among others.</li>
+        <li><strong>Buys from Dallas:</strong> Carrollton and Addison.</li>
+        <li><strong>Gets water from Fort Worth:</strong> Southlake.</li>
+        <li><strong>Stages set by the Tarrant Regional Water District:</strong> Keller.</li>
+      </ul>
+      <p>Your water bill names your provider. That is the office to call about the current stage.</p>
+    </div>
+    {{ img('pw-06-card.jpg', 'A worker pressure washing a sidewalk in front of a row of storefronts', 1200, 675) }}
+  </div>
+  {{ m.how_it_works_short() }}
+  {{ m.disclosure() }}
+  {{ m.src(['ntmwd','dal-code','sdw-ord','car-water','addison-water','sl-water','kel-water','den-res']) }}
+</section>
+{% endblock %}

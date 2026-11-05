@@ -29,7 +29,8 @@ def main():
             vis = re.sub(r"(?s)<(script|style)[^>]*>.*?</\1>", " ", raw)
             vis = re.sub(r"(?s)<!--.*?-->", " ", vis)
             vis = html.unescape(re.sub(r"<[^>]+>", " ", vis)) + " " + " ".join(re.findall(r'(?:content|alt|title)="([^"]*)"', raw))
-            if re.search(r"(?<![a-z])" + re.escape(p.lower()) if p.isalpha() else re.escape(p.lower()), vis.lower()):
+            pat = r"#1\b(?![0-9a-f])" if p == "#1" else (r"(?<![a-z])" + re.escape(p.lower()) if p.isalpha() else re.escape(p.lower()))
+            if re.search(pat, vis.lower()):
                 files.append("/" + f.relative_to(dist).as_posix())
         total += len(files)
         print(f"{p!r}: {len(files)} hits {files[:5]}")

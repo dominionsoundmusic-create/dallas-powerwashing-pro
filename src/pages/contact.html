@@ -1,0 +1,97 @@
+---
+type: contact
+title: "Contact Dallas Power Washing Pro: Call or Send a Quote Request"
+description: "Call the free Dallas power washing line any hour, or send a short quote form, and an independent local company in Dallas-Fort Worth gets back to you."
+h1: "Contact the Dallas Power Washing Line"
+crumb: "Contact"
+hero:
+  image: pw-hero.jpg
+  alt: "A clean concrete driveway leading to a red brick home with a white garage door"
+  lead: "Call any hour, or send the short form below and a local company calls you back. There is no office to visit."
+  secondary_label: "Send the short form"
+  secondary_href: "#quote-form"
+cta_title: "Call the line any hour"
+faqs:
+  - q: "Is there a way to reach the line without phoning?"
+    a: "<p>Use the form on this page. Leave a name, a number, your city and the job, and an independent local company phones you.</p>"
+  - q: "How soon will someone call back?"
+    a: "<p>The line can not promise a time, since each company sets its own schedule. For anything pressing, calling is quicker, because the assistant tries to transfer you right away.</p>"
+  - q: "Is my information sold?"
+    a: "<p>No. It goes to the company that will call you back, and to the service providers that run the line. See the <a href='/privacy-policy.html'>privacy policy</a>.</p>"
+  - q: "Who handles a complaint about finished work?"
+    a: "<p>Talk first with the company you hired, since your agreement is with it. The line does not do the work and can not settle disputes.</p>"
+---
+{% block content %}
+<section class="prose">
+  <div class="split">
+    <div>
+      <h2>Call {{ site.business.phone_display }}, day or night</h2>
+      <p class="lead">Calling is the quickest way in. Tap the button on a phone, or dial from any phone.</p>
+      <p><a class="btn btn--orange btn--big" href="tel:{{ site.business.phone_tel }}">{{ site.cta.primary_label }}</a></p>
+      <ul class="facts">
+        <li><strong>Hours</strong>24 hours a day, 7 days a week, by automated assistant.</li>
+        <li><strong>Form</strong>Send the form below and a local company calls you back.</li>
+        <li><strong>Email</strong>No public email. Call or use the form.</li>
+        <li><strong>Cost</strong>Free. The line never bills you.</li>
+      </ul>
+    </div>
+    {{ img('pw-06-card.jpg', 'A worker pressure washing the sidewalk in front of a row of storefronts', 1200, 675) }}
+  </div>
+</section>
+
+<section class="prose" id="quote-form">
+  <div class="quote-box">
+    <h2>Send a short request</h2>
+    <p>Say what needs washing, and an independent local company phones you. The first four boxes must be filled in.</p>
+    <form class="quote-form" name="dallas-powerwashing-contact" method="POST" action="/contact/thanks/" data-netlify="true" netlify-honeypot="bot-field">
+      <input type="hidden" name="form-name" value="dallas-powerwashing-contact">
+      <p hidden><label>Leave empty <input name="bot-field"></label></p>
+      <div class="quote-form__grid">
+        <p class="field"><label for="qf-name">Your name (required)</label><input id="qf-name" type="text" name="name" autocomplete="name" required></p>
+        <p class="field"><label for="qf-phone">Phone (required)</label><input id="qf-phone" type="tel" name="phone" autocomplete="tel" inputmode="tel" required></p>
+        <p class="field"><label for="qf-city">City or ZIP (required)</label><input id="qf-city" type="text" name="city" autocomplete="address-level2" required></p>
+        <p class="field"><label for="qf-need">What needs washing? (required)</label>
+          <select id="qf-need" name="need" required>
+            <option value="">Pick one</option>
+            <option>Driveway or walks</option>
+            <option>House or siding</option>
+            <option>Roof</option>
+            <option>Fence</option>
+            <option>Deck or patio</option>
+            <option>Business or commercial</option>
+            <option>Several of these</option>
+            <option>Just a question</option>
+          </select></p>
+        <p class="field field--full"><label for="qf-message">Size or anything else to know (optional)</label><textarea id="qf-message" name="message" rows="4"></textarea></p>
+      </div>
+      <p><button class="btn btn--orange btn--big" type="submit">Send my request</button></p>
+    </form>
+    <p class="quote-form__note">Your details go only to the company that will call you back and the providers that run this line. They are not sold. See the <a href="/privacy-policy.html">privacy policy</a>.</p>
+  </div>
+</section>
+
+<section class="band band--tint">
+  <div class="wide">
+    <h2>What to say when you call</h2>
+    <p class="section-intro">Short answers are fine. Whatever you say becomes the summary the company hears.</p>
+    <div class="grid-3">
+      <div class="panel"><h3>Where</h3><p>Your city, and a cross street or neighborhood if you like.</p></div>
+      <div class="panel"><h3>What</h3><p>House, driveway, roof, fence, deck or business, and roughly how big.</p></div>
+      <div class="panel"><h3>Anything special</h3><p>Stains, an HOA notice, old paint or a home built before 1978.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="prose">
+  <div class="split">
+    <div>
+      <h2>Coverage</h2>
+      <p>Dallas-Fort Worth is the whole coverage map. See the <a href="/service-areas/">service areas page</a> for the cities.</p>
+      {{ m.area_pills() }}
+    </div>
+    {{ img('pw-05-card.jpg', 'A worker in a cap rinsing a brick and siding house with a long wand', 620, 620) }}
+  </div>
+  {{ m.disclosure() }}
+  {{ m.src(['tdlr','cpa']) }}
+</section>
+{% endblock %}

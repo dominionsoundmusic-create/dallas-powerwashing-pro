@@ -42,61 +42,497 @@
   "youtube": ""
  },
  "nav": [
-  {"label": "Services", "menu": "services", "href": "/services/"},
-  {"label": "Guides", "menu": "guides"},
-  {"label": "Service Areas", "menu": "areas", "href": "/service-areas/"},
-  {"label": "How It Works", "href": "/how-it-works/"},
-  {"label": "About", "href": "/about/"},
-  {"label": "FAQ", "href": "/faq/"},
-  {"label": "Contact", "href": "/contact/"}
+  {
+   "label": "Services",
+   "menu": "services",
+   "href": "/services/"
+  },
+  {
+   "label": "Guides",
+   "menu": "guides"
+  },
+  {
+   "label": "Service Areas",
+   "menu": "areas",
+   "href": "/service-areas/"
+  },
+  {
+   "label": "How It Works",
+   "href": "/how-it-works/"
+  },
+  {
+   "label": "About",
+   "href": "/about/"
+  },
+  {
+   "label": "FAQ",
+   "href": "/faq/"
+  },
+  {
+   "label": "Contact",
+   "href": "/contact/"
+  }
  ],
  "footer_links": [
-  {"label": "All Services", "href": "/services/"},
-  {"label": "How It Works", "href": "/how-it-works/"},
-  {"label": "About", "href": "/about/"},
-  {"label": "FAQ", "href": "/faq/"},
-  {"label": "Contact", "href": "/contact/"},
-  {"label": "Privacy Policy", "href": "/privacy-policy.html"},
-  {"label": "Terms of Use", "href": "/terms.html"}
+  {
+   "label": "All Services",
+   "href": "/services/"
+  },
+  {
+   "label": "How It Works",
+   "href": "/how-it-works/"
+  },
+  {
+   "label": "About",
+   "href": "/about/"
+  },
+  {
+   "label": "FAQ",
+   "href": "/faq/"
+  },
+  {
+   "label": "Contact",
+   "href": "/contact/"
+  },
+  {
+   "label": "Privacy Policy",
+   "href": "/privacy-policy.html"
+  },
+  {
+   "label": "Terms of Use",
+   "href": "/terms.html"
+  }
  ],
  "services": [
-  {"slug": "pressure-washing", "url": "/pressure-washing/", "name": "House Washing and Residential Pressure Washing", "short": "House Washing",
+  {
+   "slug": "pressure-washing",
+   "url": "/pressure-washing/",
+   "name": "House Washing and Residential Pressure Washing",
+   "short": "House Washing",
    "summary": "Brick, siding and painted trim each need a different pressure. What a careful house wash in Dallas looks like, and what to ask first.",
-   "card_image": "pw-05-card.jpg", "card_alt": "A worker in a cap and dark uniform rinsing the front of a brick and siding house with a long wand"},
-  {"slug": "power-washing", "url": "/power-washing/", "name": "Commercial Power Washing", "short": "Commercial Power Washing",
+   "card_image": "pw-05-card.jpg",
+   "card_alt": "A worker in a cap and dark uniform rinsing the front of a brick and siding house with a long wand"
+  },
+  {
+   "slug": "power-washing",
+   "url": "/power-washing/",
+   "name": "Commercial Power Washing",
+   "short": "Commercial Power Washing",
    "summary": "Storefronts, sidewalks, parking lots and dumpster pads, where the wash water rules bite hardest. What a business should ask for.",
-   "card_image": "pw-06-card.jpg", "card_alt": "A worker pressure washing the sidewalk in front of a row of storefronts"},
-  {"slug": "driveway-cleaning", "url": "/driveway-cleaning/", "name": "Driveway and Concrete Cleaning", "short": "Driveway Cleaning",
+   "card_image": "pw-06-card.jpg",
+   "card_alt": "A worker pressure washing the sidewalk in front of a row of storefronts"
+  },
+  {
+   "slug": "driveway-cleaning",
+   "url": "/driveway-cleaning/",
+   "name": "Driveway and Concrete Cleaning",
+   "short": "Driveway Cleaning",
    "summary": "Oil, tire marks, algae and shifted slabs: what cleaning concrete on North Texas clay involves and what it can not fix.",
-   "card_image": "pw-01-card.jpg", "card_alt": "A pressure washer spray fanning across a cracked concrete driveway in front of a brick home"},
-  {"slug": "roof-soft-wash", "url": "/roof-soft-wash/", "name": "Roof Cleaning and Soft Washing", "short": "Roof Soft Wash",
+   "card_image": "pw-01-card.jpg",
+   "card_alt": "A pressure washer spray fanning across a cracked concrete driveway in front of a brick home"
+  },
+  {
+   "slug": "roof-soft-wash",
+   "url": "/roof-soft-wash/",
+   "name": "Roof Cleaning and Soft Washing",
+   "short": "Roof Soft Wash",
    "summary": "Black streaks are usually algae. Why shingle makers warn against high pressure, and how a low-pressure soft wash differs.",
-   "card_image": "pw-03-card.jpg", "card_alt": "A tile roof, half dark with buildup and half clean and red"},
-  {"slug": "fence-cleaning", "url": "/fence-cleaning/", "name": "Fence Cleaning", "short": "Fence Cleaning",
+   "card_image": "pw-03-card.jpg",
+   "card_alt": "A tile roof, half dark with buildup and half clean and red"
+  },
+  {
+   "slug": "fence-cleaning",
+   "url": "/fence-cleaning/",
+   "name": "Fence Cleaning",
+   "short": "Fence Cleaning",
    "summary": "Gray wood, green mildew and rotted pickets. What washing can bring back and what needs a repair instead.",
-   "card_image": "pw-02-card.jpg", "card_alt": "A spray wand cleaning a weathered wood fence, with one section gray and one section clean"},
-  {"slug": "deck-cleaning", "url": "/deck-cleaning/", "name": "Deck Cleaning", "short": "Deck Cleaning",
+   "card_image": "pw-02-card.jpg",
+   "card_alt": "A spray wand cleaning a weathered wood fence, with one section gray and one section clean"
+  },
+  {
+   "slug": "deck-cleaning",
+   "url": "/deck-cleaning/",
+   "name": "Deck Cleaning",
+   "short": "Deck Cleaning",
    "summary": "Soft wood marks easily and composite has its own limits. How to protect a deck, and when to stain after washing.",
-   "card_image": "pw-04-card.jpg", "card_alt": "A wet wood deck with weathered boards, patio furniture and low sun"}
+   "card_image": "pw-04-card.jpg",
+   "card_alt": "A wet wood deck with weathered boards, patio furniture and low sun"
+  }
  ],
  "guides": [
-  {"slug": "cost", "url": "/pressure-washing-cost-dallas/", "name": "How Much Does Pressure Washing Cost in Dallas?", "short": "Pressure Washing Cost",
-   "summary": "Published price ranges per square foot and by job, what moves a quote up or down, and how to compare two quotes fairly."},
-  {"slug": "how-often", "url": "/how-often-to-pressure-wash-a-house/", "name": "How Often Should You Pressure Wash a House?", "short": "How Often to Wash",
-   "summary": "Once a year is the common advice. How pollen, shade, heat and water rules change that for a North Texas home."}
+  {
+   "slug": "cost",
+   "url": "/pressure-washing-cost-dallas/",
+   "name": "How Much Does Pressure Washing Cost in Dallas?",
+   "short": "Pressure Washing Cost",
+   "summary": "Published price ranges per square foot and by job, what moves a quote up or down, and how to compare two quotes fairly."
+  },
+  {
+   "slug": "how-often",
+   "url": "/how-often-to-pressure-wash-a-house/",
+   "name": "How Often Should You Pressure Wash a House?",
+   "short": "How Often to Wash",
+   "summary": "Once a year is the common advice. How pollen, shade, heat and water rules change that for a North Texas home."
+  }
  ],
  "areas": [
-  {"slug": "fort-worth", "name": "Fort Worth", "city": "Fort Worth", "place_type": "City", "url": "/fort-worth-pressure-washing/"},
-  {"slug": "frisco", "name": "Frisco", "city": "Frisco", "place_type": "City", "url": "/frisco-pressure-washing/"},
-  {"slug": "denton", "name": "Denton", "city": "Denton", "place_type": "City", "url": "/denton-pressure-washing/"},
-  {"slug": "carrollton", "name": "Carrollton", "city": "Carrollton", "place_type": "City", "url": "/carrollton-pressure-washing/"},
-  {"slug": "plano", "name": "Plano", "city": "Plano", "place_type": "City", "url": "/plano-pressure-washing/"},
-  {"slug": "arlington", "name": "Arlington", "city": "Arlington", "place_type": "City", "url": "/arlington-pressure-washing/"},
-  {"slug": "mckinney", "name": "McKinney", "city": "McKinney", "place_type": "City", "url": "/mckinney-pressure-washing/"},
-  {"slug": "flower-mound", "name": "Flower Mound", "city": "Flower Mound", "place_type": "City", "url": "/flower-mound-pressure-washing/"},
-  {"slug": "addison", "name": "Addison", "city": "Addison", "place_type": "City", "url": "/addison-pressure-washing/"},
-  {"slug": "southlake", "name": "Southlake", "city": "Southlake", "place_type": "City", "url": "/southlake-pressure-washing/"},
-  {"slug": "keller", "name": "Keller", "city": "Keller", "place_type": "City", "url": "/keller-pressure-washing/"},
-  {"slug": "grapevine", "name": "Grapevine", "city": "Grapevine", "place_type": "City", "url": "/grapevine-pressure-washing/"}
- ]
+  {
+   "slug": "fort-worth",
+   "name": "Fort Worth",
+   "city": "Fort Worth",
+   "place_type": "City",
+   "url": "/fort-worth-pressure-washing/"
+  },
+  {
+   "slug": "frisco",
+   "name": "Frisco",
+   "city": "Frisco",
+   "place_type": "City",
+   "url": "/frisco-pressure-washing/"
+  },
+  {
+   "slug": "denton",
+   "name": "Denton",
+   "city": "Denton",
+   "place_type": "City",
+   "url": "/denton-pressure-washing/"
+  },
+  {
+   "slug": "carrollton",
+   "name": "Carrollton",
+   "city": "Carrollton",
+   "place_type": "City",
+   "url": "/carrollton-pressure-washing/"
+  },
+  {
+   "slug": "plano",
+   "name": "Plano",
+   "city": "Plano",
+   "place_type": "City",
+   "url": "/plano-pressure-washing/"
+  },
+  {
+   "slug": "arlington",
+   "name": "Arlington",
+   "city": "Arlington",
+   "place_type": "City",
+   "url": "/arlington-pressure-washing/"
+  },
+  {
+   "slug": "mckinney",
+   "name": "McKinney",
+   "city": "McKinney",
+   "place_type": "City",
+   "url": "/mckinney-pressure-washing/"
+  },
+  {
+   "slug": "flower-mound",
+   "name": "Flower Mound",
+   "city": "Flower Mound",
+   "place_type": "City",
+   "url": "/flower-mound-pressure-washing/"
+  },
+  {
+   "slug": "addison",
+   "name": "Addison",
+   "city": "Addison",
+   "place_type": "City",
+   "url": "/addison-pressure-washing/"
+  },
+  {
+   "slug": "southlake",
+   "name": "Southlake",
+   "city": "Southlake",
+   "place_type": "City",
+   "url": "/southlake-pressure-washing/"
+  },
+  {
+   "slug": "keller",
+   "name": "Keller",
+   "city": "Keller",
+   "place_type": "City",
+   "url": "/keller-pressure-washing/"
+  },
+  {
+   "slug": "grapevine",
+   "name": "Grapevine",
+   "city": "Grapevine",
+   "place_type": "City",
+   "url": "/grapevine-pressure-washing/"
+  }
+ ],
+ "sources": {
+  "dal-code": {
+   "label": "Dallas City Code: stormwater discharge rules",
+   "url": "https://codelibrary.amlegal.com/codes/dallas/latest/dallas_tx/0-0-0-109726"
+  },
+  "dal-flyer": {
+   "label": "City of Dallas: Keep Stormwater Clean",
+   "url": "https://dallascityhall.com/departments/waterutilities/stormwater-operations/PublishingImages/Keep%20Stormwater%20Clean%20Feb%2023_2021.pdf"
+  },
+  "fw-permit": {
+   "label": "City of Fort Worth: Mobile Commercial Cosmetic Cleaning (Power Washer) Regulation",
+   "url": "https://www.fortworthtexas.gov/departments/environmental-services/environmental-quality/stormwater-quality/powerwash"
+  },
+  "fw-bmp": {
+   "label": "City of Fort Worth: Best Practices for Commercial Cosmetic Cleaners",
+   "url": "https://www.fortworthtexas.gov/files/assets/public/code-compliance/env/documents/code-environmental-commercial-cosmetic-cleaner-best-practices-2021.pdf"
+  },
+  "frisco-code": {
+   "label": "City of Frisco: Stormwater Discharge Ordinance, Article IX",
+   "url": "https://friscotexas.gov/DocumentCenter/View/22094/ARTICLE_IX__STORMWATER_DISCHARGEdoc"
+  },
+  "frisco-hoa": {
+   "label": "City of Frisco: HOA Stormwater Management",
+   "url": "https://www.friscotexas.gov/1870/HOA-Stormwater-Management"
+  },
+  "addison-code": {
+   "label": "Town of Addison: Ordinance 010-016, Chapter 72",
+   "url": "https://gis.addisontx.gov/GIS_Documents/Ordinances/2010/010-016%20Amend%20Chapter%2072,%20Illicit%20Discharges%20to%20Strmwtr%20Drainage%20System.pdf"
+  },
+  "addison-about": {
+   "label": "Town of Addison: About Addison",
+   "url": "https://www.addisontx.gov/Government/About-Addison"
+  },
+  "addison-water": {
+   "label": "Town of Addison: 2024 Water Quality Report",
+   "url": "https://www.addisontx.gov/files/sharedassets/main/v/2/public-works/documents/wq-reports/2024-water-quality-report.pdf"
+  },
+  "arl-storm": {
+   "label": "City of Arlington: Stormwater Pollution Prevention",
+   "url": "https://www.arlingtontx.gov/Government/Departments/Department-Directory/Stormwater-Management/Stormwater-Education/Community-Healthy-Watersheds-Program/Stormwater-Pollution-Prevention"
+  },
+  "arl-water": {
+   "label": "Arlington Water Utilities: efficient irrigation notice, June 2024",
+   "url": "https://www.arlingtontx.gov/News-Articles/2024/June/Arlington-Water-Encourages-Efficient-Irrigation-This-Summer"
+  },
+  "den-res": {
+   "label": "City of Denton: Residential Watershed Protection",
+   "url": "https://www.cityofdenton.com/248/Residential-Watershed-Protection"
+  },
+  "den-bmp": {
+   "label": "City of Denton: BMPs for Pressure Washing and Surface Cleaning",
+   "url": "https://www.cityofdenton.com/DocumentCenter/View/388/Pressure-Wash-Manual-PDF"
+  },
+  "den-dcp": {
+   "label": "City of Denton: Water Conservation and Drought Contingency Plan",
+   "url": "https://www.cityofdenton.com/DocumentCenter/View/850/2019-Drought-Contingency-Plan-PDF"
+  },
+  "mck-poll": {
+   "label": "City of McKinney: Pollution Sources",
+   "url": "https://www.mckinneytexas.org/305/Pollution-Sources"
+  },
+  "mck-coa": {
+   "label": "City of McKinney: Historic Preservation FAQs",
+   "url": "https://www.mckinneytexas.org/m/faq?cat=50"
+  },
+  "kel-storm": {
+   "label": "City of Keller: Stormwater Management Program",
+   "url": "https://www.cityofkeller.com/services/public-works/environmental-services/stormwater-quality"
+  },
+  "kel-water": {
+   "label": "City of Keller: Water Restrictions",
+   "url": "https://www.cityofkeller.com/services/utility-billing/water-wastewater-drainage-billing/water-restrictions"
+  },
+  "gv-swmp": {
+   "label": "City of Grapevine: 2025 Storm Water Management Plan",
+   "url": "https://www.grapevinetexas.gov/DocumentCenter/View/11598/2025-08-28-FINAL-Grapevine-2025-MS4-SWMP"
+  },
+  "gv-water": {
+   "label": "City of Grapevine: Water Conservation and Watering Restrictions",
+   "url": "https://www.grapevinetexas.gov/525/Water-Conservation-Watering-Restrictions"
+  },
+  "gv-std": {
+   "label": "City of Grapevine: Secretary of the Interior's Standards",
+   "url": "https://www.grapevinetexas.gov/1627/Secretary-of-Interiors-Standards-For-Reh"
+  },
+  "sl-faq": {
+   "label": "City of Southlake: Stormwater and Drainage FAQs",
+   "url": "https://cityofsouthlake.com/3833/Drainage-FAQs"
+  },
+  "sl-water": {
+   "label": "City of Southlake: Southlake Water Facts",
+   "url": "https://www.cityofsouthlake.com/2411/Southlake-Water-Facts"
+  },
+  "sl-ms4": {
+   "label": "City of Southlake: MS4 Annual Report, FY2025",
+   "url": "https://cityofsouthlake.com/DocumentCenter/View/45170/Southlake-Year-6-2024-MS4-Annual-Report-FY25-Q2-Q4?bidId="
+  },
+  "sdw-ord": {
+   "label": "Save Dallas Water: Water Conservation Ordinance",
+   "url": "https://savedallaswater.com/resource-center/ordinance/"
+  },
+  "dal-dcp": {
+   "label": "Dallas Water Utilities: 2024 Drought Contingency Plan",
+   "url": "https://savedallaswater.com/wp-content/uploads/2024/02/2024-DWU-Drought-Contigency-Plan_Draft83.pdf"
+  },
+  "ntmwd": {
+   "label": "North Texas Municipal Water District: 2024 Water Resource and Emergency Management Plan",
+   "url": "https://ntmwd.com/DocumentCenter/View/2162/2024-NTMWD-Water-Resource-and-Emergency-Management-Plan-PDF"
+  },
+  "fw-dcp": {
+   "label": "City of Fort Worth: 2024 Drought Contingency Plan",
+   "url": "https://www.fortworthtexas.gov/files/assets/public/v/6/water/documents/save-water/fort-worth-2024-drought-contingency-plan.pdf"
+  },
+  "car-water": {
+   "label": "City of Carrollton: Watering Rules and Restrictions",
+   "url": "https://www.cityofcarrollton.com/departments/departments-a-f/environmental-quality/water-conservation/watering-rules-and-restrictions"
+  },
+  "fm-water": {
+   "label": "Town of Flower Mound: Water Conservation",
+   "url": "https://www.flowermound.gov/621/Water-Conservation"
+  },
+  "fm-ord": {
+   "label": "Town of Flower Mound: Ordinance 19-19",
+   "url": "https://www.flowermound.gov/DocumentCenter/View/158/Town-of-Flower-Mound-Ordinance-19-19-Water-Conservation"
+  },
+  "nws-normals": {
+   "label": "National Weather Service Fort Worth: 1991-2020 climate normals",
+   "url": "https://www.weather.gov/fwd/1991-2020_normals"
+  },
+  "nws-narr": {
+   "label": "National Weather Service Fort Worth: Dallas/Fort Worth climate narrative",
+   "url": "https://www.weather.gov/fwd/dfw_narrative"
+  },
+  "nws-100": {
+   "label": "National Weather Service Fort Worth: 100 degree day summary",
+   "url": "https://www.weather.gov/fwd/d100info"
+  },
+  "twdb-soil": {
+   "label": "Texas Water Development Board: Texas state soil fact sheet",
+   "url": "https://www.twdb.texas.gov/conservation/education/doc/tx_State_soil.pdf"
+  },
+  "tpwd-ct": {
+   "label": "Texas Parks and Wildlife: Cross Timbers and Prairies Ecological Region",
+   "url": "https://tpwd.texas.gov/landwater/land/habitats/cross_timbers/ecoregions/cross_timbers.phtml"
+  },
+  "tsha-ct": {
+   "label": "Handbook of Texas: Cross Timbers",
+   "url": "https://www.tshaonline.org/handbook/entries/cross-timbers"
+  },
+  "cmc-pollen": {
+   "label": "Children's Health: Seasonal Allergies in Dallas",
+   "url": "https://www.childrens.com/health-wellness/dallas-named-one-worst-cities-allergies"
+  },
+  "arma": {
+   "label": "Asphalt Roofing Manufacturers Association: Algae Discoloration",
+   "url": "https://www.asphaltroofing.org/algae-discoloration/"
+  },
+  "vila-roof": {
+   "label": "Bob Vila: Black Roof Stains",
+   "url": "https://www.bobvila.com/articles/black-roof-stains-check-for-algae.md"
+  },
+  "fixr": {
+   "label": "Fixr: Cost to Pressure Wash a House",
+   "url": "https://www.fixr.com/costs/pressure-wash-house"
+  },
+  "hardie": {
+   "label": "James Hardie: Siding Cleaning and Maintenance bulletin",
+   "url": "https://www.jameshardie.ca/JamesHardieMainSite/media/Site-Documents/TechnicalBulletins/20-james-hardie-siding-cleaning-and-maintenance.pdf"
+  },
+  "vsi": {
+   "label": "Vinyl Siding Institute: spring cleaning tips, 2015",
+   "url": "https://www.prnewswire.com/news-releases/when-thoughts-turn-to-spring-cleaning-6-simple-tips-can-keep-your-vinyl-siding-looking-new-300062053.html"
+  },
+  "sec-std": {
+   "label": "Secretary of the Interior's Standards, City of Fort Worth copy",
+   "url": "https://www.fortworthtexas.gov/files/assets/public/v/2/development-services/documents/all-preservation-and-design/historic/secretary-interior-standards-treatment-historic-homes.pdf"
+  },
+  "hgtv": {
+   "label": "HGTV: Pressure-Washing a Deck",
+   "url": "https://www.hgtv.com/remodel/outdoors/pressure-washing-a-deck"
+  },
+  "treated": {
+   "label": "Treated Wood: Is Pressure Washing Bad for My Deck?",
+   "url": "https://www.treatedwood.com/news/is-pressure-washing-bad-for-my-deck"
+  },
+  "trex": {
+   "label": "Trex: How to Clean a Trex Deck",
+   "url": "https://www.trex.com/care"
+  },
+  "fw-hist": {
+   "label": "City of Fort Worth: Historic Preservation",
+   "url": "https://www.fortworthtexas.gov/departments/development-services/historic-preservation"
+  },
+  "fw-fair": {
+   "label": "City of Fort Worth: Fairmount/Southside Historic District guidelines",
+   "url": "https://www.fortworthtexas.gov/files/assets/public/v/1/development-services/documents/all-preservation-and-design/historic/historic-districts/fairmount/section1-introduction.pdf"
+  },
+  "angi-dal": {
+   "label": "Angi: Cost to Pressure Wash a House in Dallas",
+   "url": "https://www.angi.com/articles/how-much-does-it-cost-pressure-wash-house/tx/dallas"
+  },
+  "hg": {
+   "label": "HomeGuide: Pressure Washing Prices",
+   "url": "https://homeguide.com/costs/pressure-washing-prices"
+  },
+  "hg-drive": {
+   "label": "HomeGuide: Cost to Pressure Wash a Driveway",
+   "url": "https://homeguide.com/costs/pressure-wash-driveway-cost"
+  },
+  "angi-drive": {
+   "label": "Angi: Cost to Pressure Wash a Driveway",
+   "url": "https://www.angi.com/articles/cost-to-pressure-wash-driveway.htm"
+  },
+  "forbes": {
+   "label": "Forbes Home: Average Cost to Pressure Wash a House",
+   "url": "https://www.forbes.com/home-improvement/exterior/cost-to-pressure-wash-house/"
+  },
+  "angi-when": {
+   "label": "Angi: The Best Time to Pressure Wash Your House",
+   "url": "https://www.angi.com/articles/best-time-to-pressure-wash-house.htm"
+  },
+  "thumb": {
+   "label": "Thumbtack: How often should a house be pressure washed?",
+   "url": "https://www.thumbtack.com/question/how-often-should-a-house-be-pressure-washed-397954806233554950"
+  },
+  "hg-mag": {
+   "label": "Homes & Gardens: How often should you pressure wash your driveway?",
+   "url": "https://homesandgardens.com/solved/how-often-should-you-pressure-wash-a-drive"
+  },
+  "tdlr": {
+   "label": "Texas Department of Licensing and Regulation: Programs Licensed and Regulated",
+   "url": "https://www.tdlr.texas.gov/licenses.htm"
+  },
+  "cpa": {
+   "label": "Texas Comptroller: Franchise Tax Account Status",
+   "url": "https://comptroller.texas.gov/taxes/franchise/coas-instructions.php"
+  },
+  "sos": {
+   "label": "Texas Secretary of State: Name Filings FAQs",
+   "url": "https://www.sos.state.tx.us/corp/namefilingsfaqs.shtml"
+  },
+  "pwna": {
+   "label": "Power Washers of North America: Understanding PWNA Certification",
+   "url": "https://www.pwna.org/post/understanding-pwna-certification"
+  },
+  "ag-3day": {
+   "label": "Texas Attorney General: Door-to-Door Sales and the 3-Day Right of Rescission",
+   "url": "https://www.texasattorneygeneral.gov/consumer-protection/home-real-estate-and-travel/door-door-sales-3-day-right-rescission"
+  },
+  "cpsc": {
+   "label": "CPSC: Ladders and Electricity Don't Mix",
+   "url": "https://www.cpsc.gov/s3fs-public/Ladders%20and%20Electricity%20Don't%20Mix.pdf"
+  },
+  "epa-lead": {
+   "label": "EPA: RRP requirements and pressure washing",
+   "url": "https://www.epa.gov/lead/how-do-rrp-requirements-apply-pressure-washing-what-containment-and-other-preparation-are"
+  },
+  "plano-news": {
+   "label": "Dallas Morning News: Top 10 property violations in Plano",
+   "url": "https://www.dallasnews.com/news/2022/07/18/here-are-the-top-10-property-violations-in-plano"
+  },
+  "dal-fence": {
+   "label": "City of Dallas: fence standards briefing, Chapter 27",
+   "url": "https://dallas.gov/government/Council%20Meeting%20Documents/qol_4_fences_combined_08242015.pdf"
+  },
+  "fm-plan": {
+   "label": "Town of Flower Mound Master Plan: Land Use Plan",
+   "url": "https://www.flowermound.gov/DocumentCenter/View/6733/10-Land-Use-Plan"
+  },
+  "gv-district": {
+   "label": "City of Grapevine: Main Street Historic District",
+   "url": "https://www.grapevinetexas.gov/DocumentCenter/View/103"
+  }
+ }
 }

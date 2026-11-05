@@ -1,0 +1,79 @@
+---
+type: page
+title: "How the Free Dallas Power Washing Line Works, Step by Step"
+description: "How the free Dallas power washing line works: an automated assistant answers, your call is transferred to an independent local company, and you deal with it directly."
+h1: "How the Free Line Works"
+crumb: "How It Works"
+hero:
+  image: pw-06-hero.jpg
+  alt: "A worker pressure washing the sidewalk in front of a row of storefronts"
+  position: "70% center"
+  lead: "A short call, a transfer and a local company. Here is each step, who does what, and what the line does not do."
+  secondary_label: "Questions to ask a company"
+  secondary_href: "#ask"
+cta_title: "Try it: call the line"
+faqs:
+  - q: "Is the assistant a real person?"
+    a: "<p>No. It is an automated assistant. It answers every call and asks what needs washing and where.</p>"
+  - q: "What if the company does not answer?"
+    a: "<p>A message is taken with your details and passed along, so the company can call you back. Keep your phone close for a while.</p>"
+  - q: "Why is the line free?"
+    a: "<p>Companies may pay the line a referral fee. You never pay the line, and it does not add anything to your bill.</p>"
+  - q: "Does the line check the companies?"
+    a: "<p>You should do your own checks, and this page tells you how. The line does not claim any company is licensed, insured or rated.</p>"
+  - q: "Can I use the line for something other than washing?"
+    a: "<p>It is a shared Dallas line, and the assistant asks what you need. This site covers pressure and power washing calls only.</p>"
+---
+{% block content %}
+<section class="prose">
+  <h2>The call, one step at a time</h2>
+  <p class="lead">Dial {{ site.business.phone_display }} whenever suits you. The line never closes.</p>
+  <ol class="steps">
+    <li><strong>An automated assistant answers</strong>It is a shared Dallas line, so it asks what you need. Say you need pressure or power washing.</li>
+    <li><strong>You say what and where</strong>A house, a driveway, a roof, a fence, a deck or a business, and your city.</li>
+    <li><strong>Your call is transferred</strong>It goes to an independent local company, which hears a short spoken summary so you do not have to repeat yourself.</li>
+    <li><strong>If no one answers</strong>A message is taken and passed to the company for a call back.</li>
+    <li><strong>From here on, it is between you and them</strong>The company looks over the job, names its own price, carries out the work and sends you the bill.</li>
+  </ol>
+  <p>Would you rather type? The <a href="/contact/">contact page</a> has a short form, and a company calls you back.</p>
+  <div class="split">
+    <div>
+      <h2>What the line is, and what it is not</h2>
+      <div class="grid-2">
+        <div class="panel panel--do"><h3>The line does</h3><ul class="checks"><li>Answer your call</li><li>Ask a few questions</li><li>Connect you or take a message</li></ul></div>
+        <div class="panel panel--dont"><h3>The line does not</h3><ul><li>Inspect or quote any job</li><li>Send workers or equipment</li><li>Do any cleaning</li><li>Take payment from you</li></ul></div>
+      </div>
+    </div>
+    {{ img('pw-05-card.jpg', 'A worker in a cap rinsing a brick and siding house with a long wand', 620, 620) }}
+  </div>
+</section>
+
+<section class="band band--tint" id="ask">
+  <div class="wide">
+    <h2>Questions to ask the company</h2>
+    <p class="section-intro">Texas lists no state license for power washing, so your questions matter more than they would in a licensed trade.</p>
+    <div class="grid-3">
+      <div class="panel"><h3>Insurance</h3><p>Ask for a certificate of insurance before work begins. Ask what happens if something is damaged.</p></div>
+      <div class="panel"><h3>Water</h3><p>Ask where the wash water goes and how soap stays out of storm drains. In Fort Worth, ask about the city permit.</p></div>
+      <div class="panel"><h3>Method</h3><p>Ask what pressure, tip and cleaner it will use on each surface, and why.</p></div>
+      <div class="panel"><h3>Business</h3><p>Ask for the legal name. Look it up on the Texas Comptroller's account status search, which shows if an entity may transact business in Texas.</p></div>
+      <div class="panel"><h3>Paper</h3><p>Get the price and scope in writing. Door-to-door sales over $25 can usually be cancelled within three business days.</p></div>
+      <div class="panel"><h3>Training</h3><p>Power Washers of North America is a trade group that offers certification. It is optional. Ask if the company holds it.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="prose">
+  <div class="split">
+    <div>
+      <h2>Your details</h2>
+      <p>What you tell the assistant, or type in the form, goes to the company that helps you so it can reach you. The <a href="/privacy-policy.html">privacy policy</a> has the full details, and the <a href="/terms.html">terms</a> explain that your agreement is with the company you hire, not the line.</p>
+      <p>Sole proprietors file assumed names with the county clerk, while companies and LLCs file with the Texas Secretary of State, so a business name can often be traced. Ask if you are not sure who you are dealing with.</p>
+    </div>
+    {{ img('pw-hero.jpg', 'A clean concrete driveway leading to a brick home', 1344, 768) }}
+  </div>
+  {{ m.safety() }}
+  {{ m.disclosure() }}
+  {{ m.src(['tdlr','cpa','sos','pwna','ag-3day','fw-permit','cpsc']) }}
+</section>
+{% endblock %}

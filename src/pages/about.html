@@ -1,0 +1,63 @@
+---
+type: about
+title: "About Dallas Power Washing Pro: A Free Line, Not a Washing Company"
+description: "About Dallas Power Washing Pro: a free phone line run by Dominion Digital Group that connects callers with independent local power washing companies in DFW."
+h1: "About Dallas Power Washing Pro"
+crumb: "About"
+hero:
+  image: pw-hero.jpg
+  alt: "A clean concrete driveway leading to a red brick home with a white garage door"
+  lead: "A phone line and a guide to washing in North Texas. It is not a power washing company, and it says so on every page."
+cta_title: "Questions about the line? Call it"
+faqs:
+  - q: "Who runs this site?"
+    a: "<p>Dallas Power Washing Pro is a d/b/a of Dominion Digital Group.</p>"
+  - q: "Is Dallas Power Washing Pro a contractor?"
+    a: "<p>No. It does no washing, and it has no workers or equipment. The independent company you are connected with does the work.</p>"
+  - q: "Where do the facts on this site come from?"
+    a: "<p>City codes, water utilities, the National Weather Service, trade groups, makers and published cost guides. Each page lists its sources. If something has changed, your city or the source itself is the final word.</p>"
+  - q: "Does the site show real customer reviews?"
+    a: "<p>No. The line does no washing, so it has no reviews of its own to show, and it does not invent any. Ask a company for its own references.</p>"
+---
+{% block content %}
+<section class="prose">
+  <div class="split">
+    <div>
+      <h2>Why a phone line, and why these pages?</h2>
+      <p class="lead">Finding someone to wash a house should not take an afternoon of calls.</p>
+      <p>Dallas Power Washing Pro gives people in Dallas-Fort Worth one free number. An automated assistant answers at any hour. If you need pressure or power washing, your call is transferred to an independent local company with a short spoken summary, and if no one answers, a message is taken.</p>
+      <p>The pages on this site exist for a second reason. Most washing advice ignores what matters here, such as clay soil, long pollen seasons and city rules on wash water. Pressure washing is not a state-licensed trade in Texas, so a homeowner has to know what to ask. This site tries to give you those questions, with sources you can check.</p>
+    </div>
+    {{ img('pw-01-card.jpg', 'A pressure washer spray fanning across a cracked concrete driveway in front of a brick home', 1200, 675) }}
+  </div>
+  <h2>What this site will not do</h2>
+  <ul class="checks">
+    <li>Claim that any company is licensed, insured, certified or rated</li>
+    <li>Name the companies it connects you with</li>
+    <li>Publish prices as its own</li>
+    <li>Promise a response time</li>
+    <li>Post reviews or ratings</li>
+  </ul>
+</section>
+
+<section class="band band--tint">
+  <div class="wide">
+    <h2>How money works here</h2>
+    <p class="section-intro">The line is free to you. Here is the plain version.</p>
+    <p>Companies may pay a referral fee. You pay the company that does your work, directly, at the price you agree with it. Your call does not cost you anything beyond what your phone plan charges for any call. Your agreement, including any warranty, is with that company.</p>
+  </div>
+</section>
+
+<section class="prose">
+  <div class="split">
+    <div>
+      <h2>Where the line works</h2>
+      <p>Dallas-Fort Worth only. See the <a href="/service-areas/">service areas page</a> for the cities, or read the <a href="/services/">services page</a> for the six kinds of job. The Spanish button in the header translates each page with Google Translate.</p>
+      <p>This site was designed by Dominion Web Design Pro, and it is owned by Dominion Digital Group.</p>
+    </div>
+    {{ img('pw-02-card.jpg', 'A spray wand cleaning a weathered wood fence', 620, 620) }}
+  </div>
+  {{ m.disclosure() }}
+  {{ m.src(['tdlr','twdb-soil','cmc-pollen','dal-code']) }}
+</section>
+{% endblock %}

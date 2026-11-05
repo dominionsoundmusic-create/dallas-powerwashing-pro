@@ -103,3 +103,14 @@
   </ul>
 </aside>
 {%- endmacro %}
+
+{% macro src(keys) -%}
+<aside class="sources" aria-labelledby="sources-title">
+  <h2 id="sources-title">Sources</h2>
+  <ul>
+  {% for k in keys %}{% set s = site.sources[k] %}
+    <li><a href="{{ s.url }}" target="_blank" rel="noopener">{{ s.label }}</a></li>
+  {% endfor %}
+  </ul>
+</aside>
+{%- endmacro %}

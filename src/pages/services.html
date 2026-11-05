@@ -1,0 +1,97 @@
+---
+type: page
+title: "Pressure Washing Services in Dallas-Fort Worth: Six Jobs Compared"
+description: "The pressure washing services callers ask about in Dallas-Fort Worth: houses, businesses, driveways, roofs, fences and decks, and how each job differs."
+h1: "Power Washing Services in Dallas-Fort Worth"
+crumb: "Services"
+keyword: "power washing services"
+hero:
+  image: pw-hero.jpg
+  alt: "A clean concrete driveway and walkway leading to a red brick home"
+  lead: "Six kinds of job, six different levels of risk. Here is what separates them, so you can describe yours when you call."
+cta_title: "Not sure which service you need? Describe it"
+faqs:
+  - q: "Do you offer gutter cleaning?"
+    a: "<p>No. The line does not take gutter calls. It connects callers for the six exterior washing jobs on this page.</p>"
+  - q: "What is the difference between power washing and pressure washing?"
+    a: "<p>People often use the words for the same thing. Cost guides such as HomeGuide use power washing for the hot water version, which works better on grease and oil. Ask the company whether it plans to use hot water or cold.</p>"
+  - q: "Can one company handle the house and the driveway on the same visit?"
+    a: "<p>Often, yes, but that depends on the company you reach. Mention every surface when you call, so the summary it hears covers the whole job.</p>"
+  - q: "Do I need to be home while the work is done?"
+    a: "<p>That is between you and the company. Walking the job together first is wise, so you both agree on what gets washed and what stays dry.</p>"
+---
+{% block content %}
+<section class="prose">
+  <h2>Pick the job that sounds like yours</h2>
+  <p class="lead">Every service below is carried out by an independent local company. The line connects you, and the company does the rest.</p>
+  <div class="split">
+    <div>
+      <h3><a href="/pressure-washing/">House washing</a></h3>
+      <p>Brick, fiber cement, vinyl and painted wood each have a limit. James Hardie, for one, says to stay under 1500 psi with a wide fan tip and at least 6 feet from the wall. This is the job where the wrong setting costs the most.</p>
+    </div>
+    {{ img('pw-05-card.jpg', 'A worker in a cap and dark uniform rinsing the front of a brick and siding house with a long wand', 620, 620) }}
+  </div>
+  <div class="split">
+    <div>
+      <h3><a href="/power-washing/">Commercial power washing</a></h3>
+      <p>Storefronts, walks, parking lots and dumpster pads. Grease and fuel residue mean more detergent and hot water, so collecting the wash water is often part of the job.</p>
+    </div>
+    {{ img('pw-06-card.jpg', 'A worker pressure washing the sidewalk in front of a row of storefronts', 1200, 675) }}
+  </div>
+  <div class="split">
+    <div>
+      <h3><a href="/driveway-cleaning/">Driveway and concrete cleaning</a></h3>
+      <p>The toughest surface and the most forgiving, unless the slab is old or already cracked. Oil stains usually need treating before the wash.</p>
+    </div>
+    {{ img('pw-01-card.jpg', 'A pressure washer spray fanning across a cracked concrete driveway', 1200, 675) }}
+  </div>
+  <div class="split">
+    <div>
+      <h3><a href="/roof-soft-wash/">Roof soft wash</a></h3>
+      <p>Not a pressure job at all. The roofing trade warns that high pressure is likely to damage asphalt shingles, so roofs get a low-pressure cleaning solution instead.</p>
+    </div>
+    {{ img('pw-03-card.jpg', 'A tile roof, half dark with buildup and half clean and red', 1200, 675) }}
+  </div>
+  <div class="split">
+    <div>
+      <h3><a href="/fence-cleaning/">Fence cleaning</a></h3>
+      <p>Wood fences go gray and grow mildew on the shady side. Washing brings back color. It can not fix a rotted picket or a leaning post.</p>
+    </div>
+    {{ img('pw-02-card.jpg', 'A spray wand cleaning a weathered wood fence', 620, 620) }}
+  </div>
+  <div class="split">
+    <div>
+      <h3><a href="/deck-cleaning/">Deck cleaning</a></h3>
+      <p>Softwood needs far less pressure than concrete, and composite decks have their own maker limits. Decks are often washed just before staining.</p>
+    </div>
+    {{ img('pw-04-card.jpg', 'A wet wood deck with weathered boards and patio furniture', 620, 620) }}
+  </div>
+</section>
+
+<section class="band band--tint">
+  <div class="wide">
+    <h2>The right pressure depends on the surface</h2>
+    <p class="section-intro">These figures come from makers and published guides. A real company should set its own numbers after looking at your property.</p>
+    <div class="table-wrap">
+      <table>
+        <caption class="sr">Published pressure guidance by surface</caption>
+        <thead><tr><th scope="col">Surface</th><th scope="col">Published guidance</th><th scope="col">Source</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">Asphalt shingles</th><td>No power washers</td><td>Asphalt Roofing Manufacturers Association</td></tr>
+          <tr><th scope="row">Soft wash in general</th><td>Typically under 500 PSI with a wider tip</td><td>Fixr</td></tr>
+          <tr><th scope="row">Softwood deck or fence</th><td>Roughly 500 to 600 PSI</td><td>HGTV</td></tr>
+          <tr><th scope="row">Fiber cement siding</th><td>Under 1500 psi, wide fan tip, 6 feet back</td><td>James Hardie</td></tr>
+          <tr><th scope="row">Vinyl siding</th><td>Some makers prohibit pressure washers, others limit them</td><td>Vinyl Siding Institute</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section class="prose">
+  {{ m.company_check() }}
+  {{ m.safety() }}
+  {{ m.disclosure() }}
+  {{ m.src(['hardie','arma','fixr','hgtv','vsi','hg-drive','tdlr','cpa','cpsc']) }}
+</section>
+{% endblock %}
