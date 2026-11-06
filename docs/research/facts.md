@@ -25,7 +25,7 @@ Each line: fact, then source URL. "NOT OPENED" means the page could not be read;
 - Fort Worth 2024 drought plan: Stage 1 discourages hosing paved areas and buildings (exceptions: health/safety, surface prep before painting, spot cleaning oil); Stage 3 prohibits hosing buildings except fire protection or surface prep; pressure washing only by a professional power washing service using high efficiency equipment, vacuum recovery where possible. https://www.fortworthtexas.gov/files/assets/public/v/6/water/documents/save-water/fort-worth-2024-drought-contingency-plan.pdf
 - Carrollton buys water from DWU; April 1 to Oct 31 automatic systems may not run 10 a.m. to 6 p.m.; two-day schedule encouraged; Environmental Services 972-466-3035. https://www.cityofcarrollton.com/departments/departments-a-f/environmental-quality/water-conservation/watering-rules-and-restrictions
 - Addison buys its water entirely from Dallas. https://www.addisontx.gov/files/sharedassets/main/v/2/public-works/documents/wq-reports/2024-water-quality-report.pdf
-- Keller: twice-weekly year round, no Mondays, no 10 to 6; Stage 1 restricts hosing paved areas and buildings; stages triggered by TRWD; check stage 817-743-4080. https://www.cityofkeller.com/services/utility-billing/water-wastewater-drainage-billing/water-restrictions
+- Keller: twice-weekly year round, no Mondays, no 10 to 6; Stage 1 "Prohibits hosing off of paved areas like driveways and sidewalks, or buildings and windows"; stages triggered by TRWD; information line Environmental Services 817-743-4092 or 817-743-4094. https://www.cityofkeller.com/services/utility-billing/water-wastewater-drainage-billing/water-restrictions
 - Grapevine: no irrigation 10 to 6; about 70% TRA (Cedar Creek, Richland Chambers), about 30% Lake Grapevine. https://www.grapevinetexas.gov/525/Water-Conservation-Watering-Restrictions
 - Southlake gets water from Fort Worth; 11,300+ accounts; (817) 748-8051. https://www.cityofsouthlake.com/2411/Southlake-Water-Facts
 - Flower Mound: two days a week, no 10 to 6; 972-874-6000. https://www.flowermound.gov/621/Water-Conservation . Ord 19-19 Stage 2 "Prohibit hosing off of paved areas, buildings, windows, and other surfaces." https://www.flowermound.gov/DocumentCenter/View/158/Town-of-Flower-Mound-Ordinance-19-19-Water-Conservation
@@ -43,7 +43,7 @@ Each line: fact, then source URL. "NOT OPENED" means the page could not be read;
 
 ## Surfaces
 - ARMA: algae mainly Gloeocapsa magma, brown to black; do not use power washers; "High-pressure washing systems are likely to damage asphalt roofing"; dilute bleach lightens, temporary; friction loosens granules; recommends trained pros. https://www.asphaltroofing.org/algae-discoloration/
-- Bob Vila: starts on north slopes and under trees; cover plants. https://www.bobvila.com/articles/black-roof-stains-check-for-algae.md
+- Bob Vila: starts on north slopes and under trees; cover plants. https://www.bobvila.com/articles/black-roof-stains-check-for-algae/
 - Fixr: soft washing typically under 500 PSI, wider tip, $0.25 to $0.35 per sq ft. https://www.fixr.com/costs/pressure-wash-house
 - James Hardie: under 1500 psi, wide fan tip, at least 6 feet from wall. https://www.jameshardie.ca/JamesHardieMainSite/media/Site-Documents/TechnicalBulletins/20-james-hardie-siding-cleaning-and-maintenance.pdf
 - Vinyl Siding Institute 2015: aim straight at eye level; angled spray can push water behind; some makers prohibit pressure washers. https://www.prnewswire.com/news-releases/when-thoughts-turn-to-spring-cleaning-6-simple-tips-can-keep-your-vinyl-siding-looking-new-300062053.html
@@ -76,5 +76,5 @@ Each line: fact, then source URL. "NOT OPENED" means the page could not be read;
 - CPSC ladders: assume every wire live; keep ladder at least twice its length from lines. https://www.cpsc.gov/s3fs-public/Ladders%20and%20Electricity%20Don't%20Mix.pdf
 - EPA RRP pressure-washing Q&A page: NOT OPENED (blocked). Say only: pre-1978 paint may contain lead (EPA pamphlet title), ask. https://www.epa.gov/lead/how-do-rrp-requirements-apply-pressure-washing-what-containment-and-other-preparation-are
 - Plano top violations 2022: exterior disrepair, peeling paint on exterior wood third, fences sixth. https://www.dallasnews.com/news/2022/07/18/here-are-the-top-10-property-violations-in-plano
-- Dallas 27-11(b)(10): rotted wooden slats and posts must be repaired; fences more than 4 ft may lean no more than 1 ft. https://dallas.gov/government/Council%20Meeting%20Documents/qol_4_fences_combined_08242015.pdf
+- Dallas minimum property standards, subsection (d)(17): keep fences in operating condition; repair or replace rotted, missing, fire-damaged or broken wooden slats and support posts. No lean limit in the current code text. https://codelibrary.amlegal.com/codes/dallas/latest/dallas_tx/0-0-0-111216
 - Addison: 4.4 sq mi, 180+ restaurants, 22 hotels, 12M+ sq ft office. https://www.addisontx.gov/Government/About-Addison

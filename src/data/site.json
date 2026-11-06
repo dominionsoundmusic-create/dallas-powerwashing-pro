@@ -362,8 +362,12 @@
    "label": "Save Dallas Water: Water Conservation Ordinance",
    "url": "https://savedallaswater.com/resource-center/ordinance/"
   },
+  "dal-dcp-2019": {
+   "label": "Dallas Water Utilities: Drought Contingency Plan adopted April 24, 2019 (Resolution 190680)",
+   "url": "https://dallascityhall.com/departments/waterutilities/dch%20documents/pdf/drought-contingency-plan.pdf"
+  },
   "dal-dcp": {
-   "label": "Dallas Water Utilities: 2024 Drought Contingency Plan",
+   "label": "Dallas Water Utilities: 2024 Drought Contingency Plan (unsigned copy)",
    "url": "https://savedallaswater.com/wp-content/uploads/2024/02/2024-DWU-Drought-Contigency-Plan_Draft83.pdf"
   },
   "ntmwd": {
@@ -381,6 +385,10 @@
   "fm-water": {
    "label": "Town of Flower Mound: Water Conservation",
    "url": "https://www.flowermound.gov/621/Water-Conservation"
+  },
+  "fm-storm": {
+   "label": "Town of Flower Mound: Stormwater",
+   "url": "https://www.flowermound.gov/310/Stormwater"
   },
   "fm-ord": {
    "label": "Town of Flower Mound: Ordinance 19-19",
@@ -420,7 +428,7 @@
   },
   "vila-roof": {
    "label": "Bob Vila: Black Roof Stains",
-   "url": "https://www.bobvila.com/articles/black-roof-stains-check-for-algae.md"
+   "url": "https://www.bobvila.com/articles/black-roof-stains-check-for-algae/"
   },
   "fixr": {
    "label": "Fixr: Cost to Pressure Wash a House",
@@ -506,6 +514,10 @@
    "label": "Power Washers of North America: Understanding PWNA Certification",
    "url": "https://www.pwna.org/post/understanding-pwna-certification"
   },
+  "pwna-faq": {
+   "label": "Power Washers of North America: Frequently Asked Questions",
+   "url": "https://www.pwna.org/frequently-asked-questions"
+  },
   "ag-3day": {
    "label": "Texas Attorney General: Door-to-Door Sales and the 3-Day Right of Rescission",
    "url": "https://www.texasattorneygeneral.gov/consumer-protection/home-real-estate-and-travel/door-door-sales-3-day-right-rescission"
@@ -522,9 +534,9 @@
    "label": "Dallas Morning News: Top 10 property violations in Plano",
    "url": "https://www.dallasnews.com/news/2022/07/18/here-are-the-top-10-property-violations-in-plano"
   },
-  "dal-fence": {
-   "label": "City of Dallas: fence standards briefing, Chapter 27",
-   "url": "https://dallas.gov/government/Council%20Meeting%20Documents/qol_4_fences_combined_08242015.pdf"
+  "dal-minstd": {
+   "label": "Dallas City Code: minimum property standards",
+   "url": "https://codelibrary.amlegal.com/codes/dallas/latest/dallas_tx/0-0-0-111216"
   },
   "fm-plan": {
    "label": "Town of Flower Mound Master Plan: Land Use Plan",
