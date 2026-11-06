@@ -547,3 +547,11 @@ body > .skiptranslate { display: none !important; }
 .quote-bar__social a { width: 32px; height: 32px; border: 2px solid #ffffff; border-radius: 50%; color: #ffffff; }
 .quote-bar__social a:hover { background: #ffffff; color: var(--navy); }
 .quote-bar__social svg { width: 16px; height: 16px; }
+
+/* Nov 5 2026: bold blue color break on the homepage */
+.band--blue { background: var(--brand); color: var(--white); }
+.band--blue :is(h2, .section-intro, .lead) { color: var(--white); }
+.band--blue > .wide > :is(h2, p) a:not(.btn) { color: var(--white); text-decoration: underline; }
+.band--blue .panel { border-color: transparent; color: var(--ink); }
+.band--blue .panel :is(h3, p, li, strong) { color: var(--navy); }
+.band--gold .pill-list a { border-color: transparent; }
