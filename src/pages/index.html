@@ -15,6 +15,12 @@ schema_service:
   name: "Free connection to local power washing companies in Dallas-Fort Worth"
   type: "Power washing referral"
 cta_title: "Need pressure washing in Dallas? Make one free call"
+video:
+  id: "jE951UYMgE0"
+  name: "Power Washing in Dallas: One Free Call, Any Hour"
+  description: "How the free Dallas Power Washing Pro line works: one call, any hour, connected with an independent local power washing company in Dallas-Fort Worth."
+  upload_date: "2026-11-05"
+  duration: "PT36S"
 faqs:
   - q: "Does Dallas Power Washing Pro do the washing?"
     a: "<p>No. It is a free phone line and this website. It owns no equipment and does no cleaning. Your call is transferred to an independent local power washing company, which inspects the job, quotes it, does the work and bills you. Companies may pay the line a referral fee.</p>"
@@ -29,10 +35,15 @@ faqs:
 ---
 {% block content %}
 <section class="prose">
-  <h2>What this Dallas pressure washing line is, and what it is not</h2>
-  <p class="lead">If you searched for power washing in Dallas, this site gives you one number to call instead of a long list of companies to try.</p>
-  <p>Think of Dallas Power Washing Pro as a switchboard with a guidebook attached. It does no washing itself. An automated assistant answers {{ site.business.phone_display }} around the clock and asks what needs washing and where. If you need pressure or power washing, the call is transferred to an independent local company, which hears a short spoken summary before it picks up, so you do not have to start over. If no one answers, a message is taken and passed along for a call back.</p>
-  <p>The company then looks at the job, gives you its own price, does the work and bills you directly. The line never charges you. Companies may pay it a referral fee, and every page of this site says so.</p>
+  <div class="split split--video">
+    <div>
+    <h2>What this Dallas pressure washing line is, and what it is not</h2>
+    <p class="lead">If you searched for power washing in Dallas, this site gives you one number to call instead of a long list of companies to try.</p>
+    <p>Think of Dallas Power Washing Pro as a switchboard with a guidebook attached. It does no washing itself. An automated assistant answers {{ site.business.phone_display }} around the clock and asks what needs washing and where. If you need pressure or power washing, the call is transferred to an independent local company, which hears a short spoken summary before it picks up, so you do not have to start over. If no one answers, a message is taken and passed along for a call back.</p>
+    <p>The company then looks at the job, gives you its own price, does the work and bills you directly. The line never charges you. Companies may pay it a referral fee, and every page of this site says so.</p>
+    </div>
+    {{ m.video("jE951UYMgE0", "Power Washing in Dallas: One Free Call, Any Hour", "how-often-hero.jpg") }}
+  </div>
   <h2>Services people call about</h2>
   {{ m.service_cards(['pressure-washing','power-washing','driveway-cleaning','roof-soft-wash'], cls='cards--four') }}
 </section>

@@ -555,3 +555,7 @@ body > .skiptranslate { display: none !important; }
 .band--blue .panel { border-color: transparent; color: var(--ink); }
 .band--blue .panel :is(h3, p, li, strong) { color: var(--navy); }
 .band--gold .pill-list a { border-color: transparent; }
+
+/* Nov 5 2026: homepage welcome video beside the opening text; stacks on phones */
+@media (min-width: 861px) { .prose .split--video { grid-template-columns: 1.2fr .8fr; align-items: center; } }
+.split--video .video { margin: 0; }
