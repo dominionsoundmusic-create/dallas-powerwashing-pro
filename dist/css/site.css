@@ -541,3 +541,9 @@ body > .skiptranslate { display: none !important; }
 
 /* square photos beside text stay a sensible size */
 .split .fig img { max-height: 460px; object-fit: cover; }
+
+/* Nov 5 2026: top-bar social icons outlined in white so they are easy to see */
+.quote-bar__social { gap: 8px; }
+.quote-bar__social a { width: 32px; height: 32px; border: 2px solid #ffffff; border-radius: 50%; color: #ffffff; }
+.quote-bar__social a:hover { background: #ffffff; color: var(--navy); }
+.quote-bar__social svg { width: 16px; height: 16px; }
